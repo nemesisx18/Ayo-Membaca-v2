@@ -32506,10 +32506,10 @@ RectTransform:
   - {fileID: 835251616}
   - {fileID: 251473586}
   - {fileID: 145865241}
-  - {fileID: 285739279}
   - {fileID: 789848925}
   - {fileID: 288941705}
   - {fileID: 1847498261}
+  - {fileID: 285739279}
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

@@ -68349,12 +68349,12 @@ RectTransform:
   - {fileID: 835251616}
   - {fileID: 251473586}
   - {fileID: 145865241}
-  - {fileID: 285739279}
   - {fileID: 382532912}
   - {fileID: 457673910}
   - {fileID: 355031679}
   - {fileID: 519573481}
   - {fileID: 1385788672}
+  - {fileID: 285739279}
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
