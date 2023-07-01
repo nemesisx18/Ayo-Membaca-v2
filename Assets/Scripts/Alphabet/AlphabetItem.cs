@@ -54,6 +54,11 @@ public class AlphabetItem : MonoBehaviour
                 }
 
                 OnPlayerHit?.Invoke(_alphabet);
+                if(gameState.LatihanMode)
+                {
+                    return;
+                }
+
                 if(!_dontDestroy)
                 {
                     for (int i = 0; i < _childAlphabet.Count; i++)

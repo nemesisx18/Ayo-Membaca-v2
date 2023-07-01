@@ -7,8 +7,12 @@ public class SaveData : MonoBehaviour
 {
     [SerializeField] private List<int> scores = new List<int>();
     [SerializeField] private List<string> times = new List<string>();
+
+    public bool isLatihanMode = false;
     
     public static SaveData SaveInstance;
+    public List<int> Scores => scores;
+    public List<string> Times => times;
 
     private const string _prefsKey = "ScoreAyoMembaca";
 

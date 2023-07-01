@@ -43,7 +43,10 @@ public class Timer : MonoBehaviour
     public void StopTimer()
     {
         timerIsRunning = false;
-        SaveData.SaveInstance.UpdateLevelTime(localTime, GameState.gameInstance.CurrentLevel);
+        if (!GameState.gameInstance.LatihanMode)
+        {
+            SaveData.SaveInstance.UpdateLevelTime(localTime, GameState.gameInstance.CurrentLevel);
+        }
     }
 
     void DisplayTime(float timeToDisplay)

@@ -19,7 +19,10 @@ public class InstructionManager : MonoBehaviour
     private string currentAlphabet;
     private GameState gameState;
 
+    public int StepIndex => stepIndex;
     public Level CurrentLevel => currentLevel;
+    public List<InstructionStep> InstructionSteps => instructionSteps;
+
 
     public delegate void SubmitInstruction();
     public static event SubmitInstruction OnWrongSubmit;
@@ -133,8 +136,11 @@ public class InstructionManager : MonoBehaviour
         }
         else
         {
-            Debug.Log("Wrong!!!!!");
-            OnWrongSubmit?.Invoke();
+            if (!gameState.LatihanMode)
+            {
+                Debug.Log("Wrong!!!!!");
+                OnWrongSubmit?.Invoke();
+            }
         }
     }
 
@@ -189,9 +195,12 @@ public class InstructionManager : MonoBehaviour
             }
             else
             {
-                Debug.Log("Wrong!!!!!");
                 StartCoroutine(ResetWord());
-                OnWrongSubmit?.Invoke();
+                if (!gameState.LatihanMode)
+                {
+                    Debug.Log("Wrong!!!!!");
+                    OnWrongSubmit?.Invoke();
+                }
             }
         }
     }

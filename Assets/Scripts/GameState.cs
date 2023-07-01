@@ -3,9 +3,14 @@ using UnityEngine.SceneManagement;
 
 public class GameState : MonoBehaviour
 {
+    [Header("Latihan")]
+    [SerializeField] private GameObject[] deactiveObjects;
+    
+    [Header("Pertandingan")]
     [SerializeField] private SpriteRenderer exitPoint;
     [SerializeField] private Sprite unlockImage;
     [SerializeField] private GameObject finalPanel;
+    [SerializeField] private GameObject highlighter;
     [SerializeField] private BoxCollider2D finalFlag;
     [SerializeField] private InstructionManager instructionManager;
 
@@ -16,6 +21,7 @@ public class GameState : MonoBehaviour
 
     public bool IsClear = false;
     public bool GameClear = false;
+    public bool LatihanMode;
     public int CurrentLevel;
     public int Score = 0;
 
@@ -65,6 +71,26 @@ public class GameState : MonoBehaviour
             default:
                 break;
         }
+
+        LatihanMode = SaveData.SaveInstance.isLatihanMode;
+
+        if(LatihanMode)
+        {
+            if (CurrentLevel == 0)
+            {
+                highlighter.SetActive(true);
+            }
+            SetupLatihan();
+        }
+    }
+
+    private void SetupLatihan()
+    {
+        for (int i = 0; i < deactiveObjects.Length; i++)
+        {
+            deactiveObjects[i].SetActive(false);
+        }
+        
     }
 
     [ContextMenu("Init finish level")]
@@ -77,6 +103,10 @@ public class GameState : MonoBehaviour
 
     public void AddScore()
     {
+        if(LatihanMode)
+        {
+            return;
+        }
         Score += bobotNilaiSoal;
     }
 
