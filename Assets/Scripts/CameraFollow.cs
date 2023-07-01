@@ -8,6 +8,10 @@ public class CameraFollow : MonoBehaviour
     [SerializeField] private float smoothSpeed;
     [SerializeField] private float minX, maxX, minY, maxY;
 
+    public void ChangeMaxX(float value)
+    {
+        maxX = value;
+    }
 
     private void LateUpdate()
     {

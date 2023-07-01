@@ -176,6 +176,8 @@ MonoBehaviour:
   _dontDestroy: 0
   _isAlreadyHit: 0
   _hurufKonsonan: 0
+  m_AudioSource: {fileID: 0}
+  hurufClip: {fileID: 0}
 --- !u!50 &2727204
 Rigidbody2D:
   serializedVersion: 4
@@ -438,6 +440,8 @@ MonoBehaviour:
   _dontDestroy: 1
   _isAlreadyHit: 0
   _hurufKonsonan: 0
+  m_AudioSource: {fileID: 519420034}
+  hurufClip: {fileID: 8300000, guid: 8d52a7bb3c7ca7040843a67563548dd1, type: 3}
 --- !u!50 &36529273
 Rigidbody2D:
   serializedVersion: 4
@@ -616,6 +620,8 @@ MonoBehaviour:
   _dontDestroy: 1
   _isAlreadyHit: 0
   _hurufKonsonan: 0
+  m_AudioSource: {fileID: 519420034}
+  hurufClip: {fileID: 8300000, guid: c2091fbc5f2dc684aa7affaa26c8c7e3, type: 3}
 --- !u!50 &38940579
 Rigidbody2D:
   serializedVersion: 4
@@ -1016,6 +1022,8 @@ MonoBehaviour:
   _dontDestroy: 0
   _isAlreadyHit: 0
   _hurufKonsonan: 0
+  m_AudioSource: {fileID: 0}
+  hurufClip: {fileID: 0}
 --- !u!50 &41337602
 Rigidbody2D:
   serializedVersion: 4
@@ -1195,6 +1203,8 @@ MonoBehaviour:
   _dontDestroy: 0
   _isAlreadyHit: 0
   _hurufKonsonan: 0
+  m_AudioSource: {fileID: 519420034}
+  hurufClip: {fileID: 8300000, guid: 81c41071e497f324abb68e2e08905023, type: 3}
 --- !u!50 &70864408
 Rigidbody2D:
   serializedVersion: 4
@@ -1405,6 +1415,8 @@ MonoBehaviour:
   _dontDestroy: 0
   _isAlreadyHit: 0
   _hurufKonsonan: 0
+  m_AudioSource: {fileID: 0}
+  hurufClip: {fileID: 0}
 --- !u!50 &86870948
 Rigidbody2D:
   serializedVersion: 4
@@ -1685,6 +1697,8 @@ MonoBehaviour:
   _dontDestroy: 0
   _isAlreadyHit: 0
   _hurufKonsonan: 0
+  m_AudioSource: {fileID: 0}
+  hurufClip: {fileID: 0}
 --- !u!50 &107883680
 Rigidbody2D:
   serializedVersion: 4
@@ -1853,8 +1867,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d243ed37456befd4792606e332d5490e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_AudioSource: {fileID: 519420034}
+  goalClip: {fileID: 8300000, guid: a1ac586488118f54fbb658fcea7f77ee, type: 3}
   objectiveGoal: oma
   stepDone: 0
+  playFirst: 0
 --- !u!1 &121979674
 GameObject:
   m_ObjectHideFlags: 0
@@ -1899,8 +1916,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d243ed37456befd4792606e332d5490e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_AudioSource: {fileID: 519420034}
+  goalClip: {fileID: 8300000, guid: 7091b7b379651014fa423a8702526bdc, type: 3}
   objectiveGoal: ebi
   stepDone: 0
+  playFirst: 0
 --- !u!1 &125675439
 GameObject:
   m_ObjectHideFlags: 0
@@ -2040,6 +2060,8 @@ MonoBehaviour:
   _dontDestroy: 0
   _isAlreadyHit: 0
   _hurufKonsonan: 0
+  m_AudioSource: {fileID: 519420034}
+  hurufClip: {fileID: 8300000, guid: 6230be36f2adb7747808dc64becde99b, type: 3}
 --- !u!50 &130799798
 Rigidbody2D:
   serializedVersion: 4
@@ -2256,6 +2278,8 @@ MonoBehaviour:
   _dontDestroy: 0
   _isAlreadyHit: 0
   _hurufKonsonan: 0
+  m_AudioSource: {fileID: 519420034}
+  hurufClip: {fileID: 8300000, guid: cc8ae407ef038fd47b198b8c34f1d12c, type: 3}
 --- !u!50 &161950337
 Rigidbody2D:
   serializedVersion: 4
@@ -2539,8 +2563,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d243ed37456befd4792606e332d5490e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_AudioSource: {fileID: 519420034}
+  goalClip: {fileID: 8300000, guid: 4fd885e7f0d46e048b15cda1dcb7cb4e, type: 3}
   objectiveGoal: aki
   stepDone: 0
+  playFirst: 0
 --- !u!4 &173010631
 Transform:
   m_ObjectHideFlags: 0
@@ -2818,6 +2845,8 @@ MonoBehaviour:
   _dontDestroy: 0
   _isAlreadyHit: 0
   _hurufKonsonan: 0
+  m_AudioSource: {fileID: 519420034}
+  hurufClip: {fileID: 8300000, guid: 81c41071e497f324abb68e2e08905023, type: 3}
 --- !u!50 &220441115
 Rigidbody2D:
   serializedVersion: 4
@@ -3066,8 +3095,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d243ed37456befd4792606e332d5490e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_AudioSource: {fileID: 519420034}
+  goalClip: {fileID: 8300000, guid: 678b19bdb7b59d341a2e0569bbf30ce5, type: 3}
   objectiveGoal: ubi
   stepDone: 0
+  playFirst: 0
 --- !u!1 &276569028
 GameObject:
   m_ObjectHideFlags: 0
@@ -3123,6 +3155,8 @@ MonoBehaviour:
   _dontDestroy: 0
   _isAlreadyHit: 0
   _hurufKonsonan: 0
+  m_AudioSource: {fileID: 519420034}
+  hurufClip: {fileID: 8300000, guid: 81c41071e497f324abb68e2e08905023, type: 3}
 --- !u!50 &276569031
 Rigidbody2D:
   serializedVersion: 4
@@ -58739,6 +58773,8 @@ MonoBehaviour:
   _dontDestroy: 0
   _isAlreadyHit: 0
   _hurufKonsonan: 0
+  m_AudioSource: {fileID: 0}
+  hurufClip: {fileID: 0}
 --- !u!50 &343016733
 Rigidbody2D:
   serializedVersion: 4
@@ -58985,6 +59021,8 @@ MonoBehaviour:
   _dontDestroy: 0
   _isAlreadyHit: 0
   _hurufKonsonan: 0
+  m_AudioSource: {fileID: 0}
+  hurufClip: {fileID: 0}
 --- !u!50 &359300785
 Rigidbody2D:
   serializedVersion: 4
@@ -59380,6 +59418,8 @@ MonoBehaviour:
   _dontDestroy: 0
   _isAlreadyHit: 0
   _hurufKonsonan: 0
+  m_AudioSource: {fileID: 0}
+  hurufClip: {fileID: 0}
 --- !u!50 &412123643
 Rigidbody2D:
   serializedVersion: 4
@@ -59559,6 +59599,8 @@ MonoBehaviour:
   _dontDestroy: 0
   _isAlreadyHit: 0
   _hurufKonsonan: 0
+  m_AudioSource: {fileID: 519420034}
+  hurufClip: {fileID: 8300000, guid: ac98dab554c984c4e8e855d39e09e6e6, type: 3}
 --- !u!50 &453083618
 Rigidbody2D:
   serializedVersion: 4
@@ -59737,6 +59779,8 @@ MonoBehaviour:
   _dontDestroy: 1
   _isAlreadyHit: 0
   _hurufKonsonan: 0
+  m_AudioSource: {fileID: 519420034}
+  hurufClip: {fileID: 8300000, guid: c2091fbc5f2dc684aa7affaa26c8c7e3, type: 3}
 --- !u!50 &455743350
 Rigidbody2D:
   serializedVersion: 4
@@ -59905,8 +59949,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d243ed37456befd4792606e332d5490e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_AudioSource: {fileID: 519420034}
+  goalClip: {fileID: 8300000, guid: 15d36a7ebf242144b955731864de8bbe, type: 3}
   objectiveGoal: iga
   stepDone: 0
+  playFirst: 0
 --- !u!1 &468172989
 GameObject:
   m_ObjectHideFlags: 0
@@ -60210,6 +60257,8 @@ MonoBehaviour:
   _dontDestroy: 0
   _isAlreadyHit: 0
   _hurufKonsonan: 0
+  m_AudioSource: {fileID: 519420034}
+  hurufClip: {fileID: 8300000, guid: 6230be36f2adb7747808dc64becde99b, type: 3}
 --- !u!50 &487349733
 Rigidbody2D:
   serializedVersion: 4
@@ -65825,6 +65874,7 @@ GameObject:
   - component: {fileID: 519420031}
   - component: {fileID: 519420029}
   - component: {fileID: 519420033}
+  - component: {fileID: 519420034}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -65920,6 +65970,102 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 1627218683}
+--- !u!82 &519420034
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519420028}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &521255162
 GameObject:
   m_ObjectHideFlags: 0
@@ -66033,8 +66179,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d243ed37456befd4792606e332d5490e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_AudioSource: {fileID: 519420034}
+  goalClip: {fileID: 8300000, guid: 5b42ac3e732bb2948921def13ebf59c3, type: 3}
   objectiveGoal: ide
   stepDone: 0
+  playFirst: 0
 --- !u!4 &531232984
 Transform:
   m_ObjectHideFlags: 0
@@ -66094,8 +66243,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d243ed37456befd4792606e332d5490e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_AudioSource: {fileID: 519420034}
+  goalClip: {fileID: 8300000, guid: 5b42ac3e732bb2948921def13ebf59c3, type: 3}
   objectiveGoal: ide
   stepDone: 0
+  playFirst: 0
 --- !u!1 &540445985
 GameObject:
   m_ObjectHideFlags: 0
@@ -66149,6 +66301,8 @@ MonoBehaviour:
   _dontDestroy: 0
   _isAlreadyHit: 0
   _hurufKonsonan: 0
+  m_AudioSource: {fileID: 0}
+  hurufClip: {fileID: 0}
 --- !u!50 &540445988
 Rigidbody2D:
   serializedVersion: 4
@@ -66410,6 +66564,8 @@ MonoBehaviour:
   _dontDestroy: 0
   _isAlreadyHit: 0
   _hurufKonsonan: 0
+  m_AudioSource: {fileID: 0}
+  hurufClip: {fileID: 0}
 --- !u!50 &583238789
 Rigidbody2D:
   serializedVersion: 4
@@ -66587,6 +66743,8 @@ MonoBehaviour:
   _dontDestroy: 0
   _isAlreadyHit: 0
   _hurufKonsonan: 0
+  m_AudioSource: {fileID: 0}
+  hurufClip: {fileID: 0}
 --- !u!50 &604474794
 Rigidbody2D:
   serializedVersion: 4
@@ -67055,6 +67213,8 @@ MonoBehaviour:
   _dontDestroy: 0
   _isAlreadyHit: 0
   _hurufKonsonan: 0
+  m_AudioSource: {fileID: 0}
+  hurufClip: {fileID: 0}
 --- !u!50 &637748938
 Rigidbody2D:
   serializedVersion: 4
@@ -67326,8 +67486,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d243ed37456befd4792606e332d5490e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_AudioSource: {fileID: 519420034}
+  goalClip: {fileID: 8300000, guid: c78aa007ff8c31540b1ac90e755c7396, type: 3}
   objectiveGoal: iba
   stepDone: 0
+  playFirst: 0
 --- !u!4 &652758891
 Transform:
   m_ObjectHideFlags: 0
@@ -67643,6 +67806,8 @@ MonoBehaviour:
   _dontDestroy: 0
   _isAlreadyHit: 0
   _hurufKonsonan: 0
+  m_AudioSource: {fileID: 519420034}
+  hurufClip: {fileID: 8300000, guid: 6367f93b3d4d29a4ea64e135b77674a7, type: 3}
 --- !u!50 &670309917
 Rigidbody2D:
   serializedVersion: 4
@@ -68023,6 +68188,8 @@ MonoBehaviour:
   _dontDestroy: 0
   _isAlreadyHit: 0
   _hurufKonsonan: 0
+  m_AudioSource: {fileID: 0}
+  hurufClip: {fileID: 0}
 --- !u!50 &720777359
 Rigidbody2D:
   serializedVersion: 4
@@ -68201,6 +68368,8 @@ MonoBehaviour:
   _dontDestroy: 1
   _isAlreadyHit: 0
   _hurufKonsonan: 0
+  m_AudioSource: {fileID: 519420034}
+  hurufClip: {fileID: 8300000, guid: 8d52a7bb3c7ca7040843a67563548dd1, type: 3}
 --- !u!50 &731234512
 Rigidbody2D:
   serializedVersion: 4
@@ -68453,8 +68622,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d243ed37456befd4792606e332d5490e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_AudioSource: {fileID: 519420034}
+  goalClip: {fileID: 8300000, guid: 7091b7b379651014fa423a8702526bdc, type: 3}
   objectiveGoal: ebi
   stepDone: 0
+  playFirst: 0
 --- !u!1 &749164551
 GameObject:
   m_ObjectHideFlags: 0
@@ -68593,6 +68765,8 @@ MonoBehaviour:
   _dontDestroy: 1
   _isAlreadyHit: 0
   _hurufKonsonan: 0
+  m_AudioSource: {fileID: 519420034}
+  hurufClip: {fileID: 8300000, guid: 7fc8e4c5866074a4889daa88b449e059, type: 3}
 --- !u!50 &753537236
 Rigidbody2D:
   serializedVersion: 4
@@ -68770,6 +68944,8 @@ MonoBehaviour:
   _dontDestroy: 0
   _isAlreadyHit: 0
   _hurufKonsonan: 0
+  m_AudioSource: {fileID: 0}
+  hurufClip: {fileID: 0}
 --- !u!50 &754270837
 Rigidbody2D:
   serializedVersion: 4
@@ -69105,6 +69281,8 @@ MonoBehaviour:
   _dontDestroy: 0
   _isAlreadyHit: 0
   _hurufKonsonan: 0
+  m_AudioSource: {fileID: 0}
+  hurufClip: {fileID: 0}
 --- !u!50 &807099919
 Rigidbody2D:
   serializedVersion: 4
@@ -69283,6 +69461,8 @@ MonoBehaviour:
   _dontDestroy: 1
   _isAlreadyHit: 0
   _hurufKonsonan: 0
+  m_AudioSource: {fileID: 519420034}
+  hurufClip: {fileID: 8300000, guid: 8933b02e846344b4d8f516aa45aa982d, type: 3}
 --- !u!50 &820029328
 Rigidbody2D:
   serializedVersion: 4
@@ -69716,6 +69896,8 @@ MonoBehaviour:
   _dontDestroy: 1
   _isAlreadyHit: 0
   _hurufKonsonan: 0
+  m_AudioSource: {fileID: 519420034}
+  hurufClip: {fileID: 8300000, guid: f659d38e69ce07c418eb5bc37629135e, type: 3}
 --- !u!50 &835719831
 Rigidbody2D:
   serializedVersion: 4
@@ -70045,8 +70227,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d243ed37456befd4792606e332d5490e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_AudioSource: {fileID: 519420034}
+  goalClip: {fileID: 8300000, guid: 678b19bdb7b59d341a2e0569bbf30ce5, type: 3}
   objectiveGoal: ubi
   stepDone: 0
+  playFirst: 0
 --- !u!1 &862125436
 GameObject:
   m_ObjectHideFlags: 0
@@ -70102,6 +70287,8 @@ MonoBehaviour:
   _dontDestroy: 0
   _isAlreadyHit: 0
   _hurufKonsonan: 0
+  m_AudioSource: {fileID: 519420034}
+  hurufClip: {fileID: 8300000, guid: cc8ae407ef038fd47b198b8c34f1d12c, type: 3}
 --- !u!50 &862125439
 Rigidbody2D:
   serializedVersion: 4
@@ -70453,6 +70640,8 @@ MonoBehaviour:
   _dontDestroy: 1
   _isAlreadyHit: 0
   _hurufKonsonan: 0
+  m_AudioSource: {fileID: 519420034}
+  hurufClip: {fileID: 8300000, guid: 7fc8e4c5866074a4889daa88b449e059, type: 3}
 --- !u!50 &885407596
 Rigidbody2D:
   serializedVersion: 4
@@ -70714,6 +70903,8 @@ MonoBehaviour:
   _dontDestroy: 0
   _isAlreadyHit: 0
   _hurufKonsonan: 0
+  m_AudioSource: {fileID: 0}
+  hurufClip: {fileID: 0}
 --- !u!50 &886414389
 Rigidbody2D:
   serializedVersion: 4
@@ -70966,8 +71157,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d243ed37456befd4792606e332d5490e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_AudioSource: {fileID: 519420034}
+  goalClip: {fileID: 8300000, guid: 6b59144b5d54e24419bf94a524b2defb, type: 3}
   objectiveGoal: ibu
   stepDone: 0
+  playFirst: 0
 --- !u!1 &933249402
 GameObject:
   m_ObjectHideFlags: 0
@@ -71021,6 +71215,8 @@ MonoBehaviour:
   _dontDestroy: 0
   _isAlreadyHit: 0
   _hurufKonsonan: 0
+  m_AudioSource: {fileID: 0}
+  hurufClip: {fileID: 0}
 --- !u!50 &933249405
 Rigidbody2D:
   serializedVersion: 4
@@ -71282,6 +71478,8 @@ MonoBehaviour:
   _dontDestroy: 0
   _isAlreadyHit: 0
   _hurufKonsonan: 0
+  m_AudioSource: {fileID: 0}
+  hurufClip: {fileID: 0}
 --- !u!50 &941965777
 Rigidbody2D:
   serializedVersion: 4
@@ -71696,6 +71894,8 @@ MonoBehaviour:
   _dontDestroy: 0
   _isAlreadyHit: 0
   _hurufKonsonan: 0
+  m_AudioSource: {fileID: 0}
+  hurufClip: {fileID: 0}
 --- !u!50 &1003444465
 Rigidbody2D:
   serializedVersion: 4
@@ -71957,6 +72157,8 @@ MonoBehaviour:
   _dontDestroy: 0
   _isAlreadyHit: 0
   _hurufKonsonan: 0
+  m_AudioSource: {fileID: 0}
+  hurufClip: {fileID: 0}
 --- !u!50 &1010413305
 Rigidbody2D:
   serializedVersion: 4
@@ -72302,6 +72504,8 @@ MonoBehaviour:
   _dontDestroy: 0
   _isAlreadyHit: 0
   _hurufKonsonan: 0
+  m_AudioSource: {fileID: 0}
+  hurufClip: {fileID: 0}
 --- !u!50 &1027718848
 Rigidbody2D:
   serializedVersion: 4
@@ -72851,6 +73055,8 @@ MonoBehaviour:
   _dontDestroy: 0
   _isAlreadyHit: 0
   _hurufKonsonan: 0
+  m_AudioSource: {fileID: 519420034}
+  hurufClip: {fileID: 8300000, guid: 60eacfc72a9b71f418b7819f22e13e1d, type: 3}
 --- !u!50 &1057515409
 Rigidbody2D:
   serializedVersion: 4
@@ -73459,8 +73665,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d243ed37456befd4792606e332d5490e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_AudioSource: {fileID: 519420034}
+  goalClip: {fileID: 8300000, guid: 7129d326fc248934fbf87c238561bfb0, type: 3}
   objectiveGoal: aba
   stepDone: 0
+  playFirst: 0
 --- !u!1 &1122609723
 GameObject:
   m_ObjectHideFlags: 0
@@ -73516,6 +73725,8 @@ MonoBehaviour:
   _dontDestroy: 0
   _isAlreadyHit: 0
   _hurufKonsonan: 0
+  m_AudioSource: {fileID: 519420034}
+  hurufClip: {fileID: 8300000, guid: 60eacfc72a9b71f418b7819f22e13e1d, type: 3}
 --- !u!50 &1122609726
 Rigidbody2D:
   serializedVersion: 4
@@ -73695,6 +73906,8 @@ MonoBehaviour:
   _dontDestroy: 0
   _isAlreadyHit: 0
   _hurufKonsonan: 0
+  m_AudioSource: {fileID: 519420034}
+  hurufClip: {fileID: 8300000, guid: 60eacfc72a9b71f418b7819f22e13e1d, type: 3}
 --- !u!50 &1126263457
 Rigidbody2D:
   serializedVersion: 4
@@ -73956,6 +74169,8 @@ MonoBehaviour:
   _dontDestroy: 0
   _isAlreadyHit: 0
   _hurufKonsonan: 0
+  m_AudioSource: {fileID: 0}
+  hurufClip: {fileID: 0}
 --- !u!50 &1143364458
 Rigidbody2D:
   serializedVersion: 4
@@ -74467,6 +74682,8 @@ MonoBehaviour:
   _dontDestroy: 0
   _isAlreadyHit: 0
   _hurufKonsonan: 0
+  m_AudioSource: {fileID: 519420034}
+  hurufClip: {fileID: 8300000, guid: 60eacfc72a9b71f418b7819f22e13e1d, type: 3}
 --- !u!50 &1217886078
 Rigidbody2D:
   serializedVersion: 4
@@ -74644,6 +74861,8 @@ MonoBehaviour:
   _dontDestroy: 0
   _isAlreadyHit: 0
   _hurufKonsonan: 0
+  m_AudioSource: {fileID: 0}
+  hurufClip: {fileID: 0}
 --- !u!50 &1226172835
 Rigidbody2D:
   serializedVersion: 4
@@ -74905,6 +75124,8 @@ MonoBehaviour:
   _dontDestroy: 0
   _isAlreadyHit: 0
   _hurufKonsonan: 0
+  m_AudioSource: {fileID: 0}
+  hurufClip: {fileID: 0}
 --- !u!50 &1235446470
 Rigidbody2D:
   serializedVersion: 4
@@ -75234,8 +75455,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d243ed37456befd4792606e332d5490e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_AudioSource: {fileID: 519420034}
+  goalClip: {fileID: 8300000, guid: c78aa007ff8c31540b1ac90e755c7396, type: 3}
   objectiveGoal: iba
   stepDone: 0
+  playFirst: 0
 --- !u!1 &1268726802
 GameObject:
   m_ObjectHideFlags: 0
@@ -75375,6 +75599,8 @@ MonoBehaviour:
   _dontDestroy: 0
   _isAlreadyHit: 0
   _hurufKonsonan: 0
+  m_AudioSource: {fileID: 519420034}
+  hurufClip: {fileID: 8300000, guid: ac98dab554c984c4e8e855d39e09e6e6, type: 3}
 --- !u!50 &1276968888
 Rigidbody2D:
   serializedVersion: 4
@@ -75589,6 +75815,8 @@ MonoBehaviour:
   _dontDestroy: 0
   _isAlreadyHit: 0
   _hurufKonsonan: 0
+  m_AudioSource: {fileID: 519420034}
+  hurufClip: {fileID: 8300000, guid: dfc64ec844ae1944582e7a551fa1aadb, type: 3}
 --- !u!50 &1318149537
 Rigidbody2D:
   serializedVersion: 4
@@ -75766,6 +75994,8 @@ MonoBehaviour:
   _dontDestroy: 0
   _isAlreadyHit: 0
   _hurufKonsonan: 0
+  m_AudioSource: {fileID: 0}
+  hurufClip: {fileID: 0}
 --- !u!50 &1333705453
 Rigidbody2D:
   serializedVersion: 4
@@ -76070,6 +76300,8 @@ MonoBehaviour:
   _dontDestroy: 0
   _isAlreadyHit: 0
   _hurufKonsonan: 0
+  m_AudioSource: {fileID: 519420034}
+  hurufClip: {fileID: 8300000, guid: 6230be36f2adb7747808dc64becde99b, type: 3}
 --- !u!50 &1359595499
 Rigidbody2D:
   serializedVersion: 4
@@ -76493,6 +76725,8 @@ MonoBehaviour:
   _dontDestroy: 0
   _isAlreadyHit: 0
   _hurufKonsonan: 0
+  m_AudioSource: {fileID: 519420034}
+  hurufClip: {fileID: 8300000, guid: cc8ae407ef038fd47b198b8c34f1d12c, type: 3}
 --- !u!50 &1426953047
 Rigidbody2D:
   serializedVersion: 4
@@ -76672,6 +76906,8 @@ MonoBehaviour:
   _dontDestroy: 0
   _isAlreadyHit: 0
   _hurufKonsonan: 0
+  m_AudioSource: {fileID: 519420034}
+  hurufClip: {fileID: 8300000, guid: 81c41071e497f324abb68e2e08905023, type: 3}
 --- !u!50 &1447031486
 Rigidbody2D:
   serializedVersion: 4
@@ -77018,6 +77254,8 @@ MonoBehaviour:
   _dontDestroy: 0
   _isAlreadyHit: 0
   _hurufKonsonan: 0
+  m_AudioSource: {fileID: 0}
+  hurufClip: {fileID: 0}
 --- !u!50 &1455830001
 Rigidbody2D:
   serializedVersion: 4
@@ -77398,6 +77636,8 @@ MonoBehaviour:
   _dontDestroy: 0
   _isAlreadyHit: 0
   _hurufKonsonan: 0
+  m_AudioSource: {fileID: 0}
+  hurufClip: {fileID: 0}
 --- !u!50 &1499777504
 Rigidbody2D:
   serializedVersion: 4
@@ -77575,6 +77815,8 @@ MonoBehaviour:
   _dontDestroy: 0
   _isAlreadyHit: 0
   _hurufKonsonan: 0
+  m_AudioSource: {fileID: 0}
+  hurufClip: {fileID: 0}
 --- !u!50 &1503852049
 Rigidbody2D:
   serializedVersion: 4
@@ -77905,6 +78147,8 @@ MonoBehaviour:
   _dontDestroy: 0
   _isAlreadyHit: 0
   _hurufKonsonan: 0
+  m_AudioSource: {fileID: 0}
+  hurufClip: {fileID: 0}
 --- !u!50 &1515960553
 Rigidbody2D:
   serializedVersion: 4
@@ -78082,6 +78326,8 @@ MonoBehaviour:
   _dontDestroy: 0
   _isAlreadyHit: 0
   _hurufKonsonan: 0
+  m_AudioSource: {fileID: 0}
+  hurufClip: {fileID: 0}
 --- !u!50 &1518508757
 Rigidbody2D:
   serializedVersion: 4
@@ -78259,6 +78505,8 @@ MonoBehaviour:
   _dontDestroy: 0
   _isAlreadyHit: 0
   _hurufKonsonan: 0
+  m_AudioSource: {fileID: 0}
+  hurufClip: {fileID: 0}
 --- !u!50 &1522554954
 Rigidbody2D:
   serializedVersion: 4
@@ -78438,6 +78686,8 @@ MonoBehaviour:
   _dontDestroy: 0
   _isAlreadyHit: 0
   _hurufKonsonan: 0
+  m_AudioSource: {fileID: 519420034}
+  hurufClip: {fileID: 8300000, guid: ac98dab554c984c4e8e855d39e09e6e6, type: 3}
 --- !u!50 &1534156832
 Rigidbody2D:
   serializedVersion: 4
@@ -78606,8 +78856,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d243ed37456befd4792606e332d5490e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_AudioSource: {fileID: 519420034}
+  goalClip: {fileID: 8300000, guid: 4fd885e7f0d46e048b15cda1dcb7cb4e, type: 3}
   objectiveGoal: aki
   stepDone: 0
+  playFirst: 0
 --- !u!1 &1535584796
 GameObject:
   m_ObjectHideFlags: 0
@@ -78829,6 +79082,8 @@ MonoBehaviour:
   _dontDestroy: 0
   _isAlreadyHit: 0
   _hurufKonsonan: 0
+  m_AudioSource: {fileID: 0}
+  hurufClip: {fileID: 0}
 --- !u!50 &1547797190
 Rigidbody2D:
   serializedVersion: 4
@@ -79006,6 +79261,8 @@ MonoBehaviour:
   _dontDestroy: 0
   _isAlreadyHit: 0
   _hurufKonsonan: 0
+  m_AudioSource: {fileID: 0}
+  hurufClip: {fileID: 0}
 --- !u!50 &1557968080
 Rigidbody2D:
   serializedVersion: 4
@@ -79221,6 +79478,8 @@ MonoBehaviour:
   _dontDestroy: 0
   _isAlreadyHit: 0
   _hurufKonsonan: 0
+  m_AudioSource: {fileID: 519420034}
+  hurufClip: {fileID: 8300000, guid: 81c41071e497f324abb68e2e08905023, type: 3}
 --- !u!50 &1570865855
 Rigidbody2D:
   serializedVersion: 4
@@ -79442,6 +79701,8 @@ MonoBehaviour:
   _dontDestroy: 0
   _isAlreadyHit: 0
   _hurufKonsonan: 0
+  m_AudioSource: {fileID: 519420034}
+  hurufClip: {fileID: 8300000, guid: 6367f93b3d4d29a4ea64e135b77674a7, type: 3}
 --- !u!50 &1609102937
 Rigidbody2D:
   serializedVersion: 4
@@ -79621,6 +79882,8 @@ MonoBehaviour:
   _dontDestroy: 0
   _isAlreadyHit: 0
   _hurufKonsonan: 0
+  m_AudioSource: {fileID: 519420034}
+  hurufClip: {fileID: 8300000, guid: 81c41071e497f324abb68e2e08905023, type: 3}
 --- !u!50 &1619755356
 Rigidbody2D:
   serializedVersion: 4
@@ -79789,8 +80052,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d243ed37456befd4792606e332d5490e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_AudioSource: {fileID: 519420034}
+  goalClip: {fileID: 8300000, guid: 5a4e48839aced804abb4834b88213e43, type: 3}
   objectiveGoal: umi
   stepDone: 0
+  playFirst: 0
 --- !u!1 &1627094456
 GameObject:
   m_ObjectHideFlags: 0
@@ -79835,8 +80101,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d243ed37456befd4792606e332d5490e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_AudioSource: {fileID: 519420034}
+  goalClip: {fileID: 8300000, guid: 7129d326fc248934fbf87c238561bfb0, type: 3}
   objectiveGoal: aba
   stepDone: 0
+  playFirst: 0
 --- !u!1 &1627218681
 GameObject:
   m_ObjectHideFlags: 0
@@ -80074,7 +80343,7 @@ MonoBehaviour:
   target: {fileID: 519420032}
   smoothSpeed: 10
   minX: 6.5
-  maxX: 119
+  maxX: 49
   minY: 3.5
   maxY: 8.5
 --- !u!1 &1638958552
@@ -80131,6 +80400,8 @@ MonoBehaviour:
   _dontDestroy: 1
   _isAlreadyHit: 0
   _hurufKonsonan: 0
+  m_AudioSource: {fileID: 519420034}
+  hurufClip: {fileID: 8300000, guid: 8933b02e846344b4d8f516aa45aa982d, type: 3}
 --- !u!50 &1638958555
 Rigidbody2D:
   serializedVersion: 4
@@ -80361,6 +80632,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   border: {fileID: 835787965}
+  cm: {fileID: 1627218690}
 --- !u!1 &1642779572
 GameObject:
   m_ObjectHideFlags: 0
@@ -80451,6 +80723,8 @@ MonoBehaviour:
   _dontDestroy: 0
   _isAlreadyHit: 0
   _hurufKonsonan: 0
+  m_AudioSource: {fileID: 0}
+  hurufClip: {fileID: 0}
 --- !u!50 &1643498283
 Rigidbody2D:
   serializedVersion: 4
@@ -80833,6 +81107,8 @@ MonoBehaviour:
   _dontDestroy: 0
   _isAlreadyHit: 0
   _hurufKonsonan: 0
+  m_AudioSource: {fileID: 519420034}
+  hurufClip: {fileID: 8300000, guid: dfc64ec844ae1944582e7a551fa1aadb, type: 3}
 --- !u!50 &1674230919
 Rigidbody2D:
   serializedVersion: 4
@@ -81211,6 +81487,8 @@ MonoBehaviour:
   _dontDestroy: 0
   _isAlreadyHit: 0
   _hurufKonsonan: 0
+  m_AudioSource: {fileID: 0}
+  hurufClip: {fileID: 0}
 --- !u!50 &1768096584
 Rigidbody2D:
   serializedVersion: 4
@@ -81388,6 +81666,8 @@ MonoBehaviour:
   _dontDestroy: 0
   _isAlreadyHit: 0
   _hurufKonsonan: 0
+  m_AudioSource: {fileID: 0}
+  hurufClip: {fileID: 0}
 --- !u!50 &1772654191
 Rigidbody2D:
   serializedVersion: 4
@@ -81556,8 +81836,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d243ed37456befd4792606e332d5490e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_AudioSource: {fileID: 519420034}
+  goalClip: {fileID: 8300000, guid: 15d36a7ebf242144b955731864de8bbe, type: 3}
   objectiveGoal: iga
   stepDone: 0
+  playFirst: 0
 --- !u!1 &1797858070
 GameObject:
   m_ObjectHideFlags: 0
@@ -81693,6 +81976,8 @@ MonoBehaviour:
   _dontDestroy: 0
   _isAlreadyHit: 0
   _hurufKonsonan: 0
+  m_AudioSource: {fileID: 519420034}
+  hurufClip: {fileID: 8300000, guid: 3fc10471105a2a344869caf33ea1889e, type: 3}
 --- !u!50 &1798658625
 Rigidbody2D:
   serializedVersion: 4
@@ -81872,6 +82157,8 @@ MonoBehaviour:
   _dontDestroy: 0
   _isAlreadyHit: 0
   _hurufKonsonan: 0
+  m_AudioSource: {fileID: 519420034}
+  hurufClip: {fileID: 8300000, guid: 6367f93b3d4d29a4ea64e135b77674a7, type: 3}
 --- !u!50 &1799919841
 Rigidbody2D:
   serializedVersion: 4
@@ -82025,8 +82312,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d243ed37456befd4792606e332d5490e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_AudioSource: {fileID: 519420034}
+  goalClip: {fileID: 8300000, guid: a1ac586488118f54fbb658fcea7f77ee, type: 3}
   objectiveGoal: oma
   stepDone: 0
+  playFirst: 0
 --- !u!4 &1807738066
 Transform:
   m_ObjectHideFlags: 0
@@ -82097,6 +82387,8 @@ MonoBehaviour:
   _dontDestroy: 0
   _isAlreadyHit: 0
   _hurufKonsonan: 0
+  m_AudioSource: {fileID: 519420034}
+  hurufClip: {fileID: 8300000, guid: 3fc10471105a2a344869caf33ea1889e, type: 3}
 --- !u!50 &1813563073
 Rigidbody2D:
   serializedVersion: 4
@@ -82265,8 +82557,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d243ed37456befd4792606e332d5490e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_AudioSource: {fileID: 519420034}
+  goalClip: {fileID: 8300000, guid: 5a4e48839aced804abb4834b88213e43, type: 3}
   objectiveGoal: umi
   stepDone: 0
+  playFirst: 0
 --- !u!1 &1817061580
 GameObject:
   m_ObjectHideFlags: 0
@@ -82476,6 +82771,8 @@ MonoBehaviour:
   _dontDestroy: 0
   _isAlreadyHit: 0
   _hurufKonsonan: 0
+  m_AudioSource: {fileID: 519420034}
+  hurufClip: {fileID: 8300000, guid: 3fc10471105a2a344869caf33ea1889e, type: 3}
 --- !u!50 &1836560488
 Rigidbody2D:
   serializedVersion: 4
@@ -82803,6 +83100,8 @@ MonoBehaviour:
   _dontDestroy: 1
   _isAlreadyHit: 0
   _hurufKonsonan: 0
+  m_AudioSource: {fileID: 519420034}
+  hurufClip: {fileID: 8300000, guid: f659d38e69ce07c418eb5bc37629135e, type: 3}
 --- !u!50 &1894040592
 Rigidbody2D:
   serializedVersion: 4
@@ -82982,6 +83281,8 @@ MonoBehaviour:
   _dontDestroy: 0
   _isAlreadyHit: 0
   _hurufKonsonan: 0
+  m_AudioSource: {fileID: 519420034}
+  hurufClip: {fileID: 8300000, guid: 60eacfc72a9b71f418b7819f22e13e1d, type: 3}
 --- !u!50 &1906430334
 Rigidbody2D:
   serializedVersion: 4
@@ -83328,6 +83629,8 @@ MonoBehaviour:
   _dontDestroy: 0
   _isAlreadyHit: 0
   _hurufKonsonan: 0
+  m_AudioSource: {fileID: 0}
+  hurufClip: {fileID: 0}
 --- !u!50 &1908226855
 Rigidbody2D:
   serializedVersion: 4
@@ -83551,6 +83854,8 @@ MonoBehaviour:
   _dontDestroy: 0
   _isAlreadyHit: 0
   _hurufKonsonan: 0
+  m_AudioSource: {fileID: 0}
+  hurufClip: {fileID: 0}
 --- !u!50 &1925255808
 Rigidbody2D:
   serializedVersion: 4
@@ -83848,6 +84153,8 @@ MonoBehaviour:
   _dontDestroy: 0
   _isAlreadyHit: 0
   _hurufKonsonan: 0
+  m_AudioSource: {fileID: 519420034}
+  hurufClip: {fileID: 8300000, guid: dfc64ec844ae1944582e7a551fa1aadb, type: 3}
 --- !u!50 &1969465930
 Rigidbody2D:
   serializedVersion: 4
@@ -84025,6 +84332,8 @@ MonoBehaviour:
   _dontDestroy: 0
   _isAlreadyHit: 0
   _hurufKonsonan: 0
+  m_AudioSource: {fileID: 0}
+  hurufClip: {fileID: 0}
 --- !u!50 &1971051040
 Rigidbody2D:
   serializedVersion: 4
@@ -84202,6 +84511,8 @@ MonoBehaviour:
   _dontDestroy: 0
   _isAlreadyHit: 0
   _hurufKonsonan: 0
+  m_AudioSource: {fileID: 0}
+  hurufClip: {fileID: 0}
 --- !u!50 &2000879895
 Rigidbody2D:
   serializedVersion: 4
@@ -84547,6 +84858,8 @@ MonoBehaviour:
   _dontDestroy: 0
   _isAlreadyHit: 0
   _hurufKonsonan: 0
+  m_AudioSource: {fileID: 0}
+  hurufClip: {fileID: 0}
 --- !u!50 &2017361843
 Rigidbody2D:
   serializedVersion: 4
@@ -84976,8 +85289,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d243ed37456befd4792606e332d5490e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_AudioSource: {fileID: 519420034}
+  goalClip: {fileID: 8300000, guid: 6b59144b5d54e24419bf94a524b2defb, type: 3}
   objectiveGoal: ibu
   stepDone: 0
+  playFirst: 0
 --- !u!4 &2103246034
 Transform:
   m_ObjectHideFlags: 0
@@ -85216,6 +85532,8 @@ MonoBehaviour:
   _dontDestroy: 0
   _isAlreadyHit: 0
   _hurufKonsonan: 0
+  m_AudioSource: {fileID: 519420034}
+  hurufClip: {fileID: 8300000, guid: 60eacfc72a9b71f418b7819f22e13e1d, type: 3}
 --- !u!50 &2114802565
 Rigidbody2D:
   serializedVersion: 4

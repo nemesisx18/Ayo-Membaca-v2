@@ -10,6 +10,9 @@ public class AlphabetItem : MonoBehaviour
     [SerializeField] private bool _isAlreadyHit = false;
     [SerializeField] private bool _hurufKonsonan = false;
 
+    [SerializeField] private AudioSource m_AudioSource;
+    [SerializeField] private AudioClip hurufClip;
+
     private List<GameObject> _childAlphabet = new List<GameObject>();
     private GameState gameState;
 
@@ -41,6 +44,8 @@ public class AlphabetItem : MonoBehaviour
         {
             if (!_isBlankBox && !_isAlreadyHit)
             {
+                m_AudioSource.PlayOneShot(hurufClip);
+
                 if (_hurufKonsonan)
                 {
                     OnPlayerHitKonsonan?.Invoke(_alphabet);

@@ -132,7 +132,8 @@ public class InstructionManager : MonoBehaviour
         {
             OnCorrectSubmit?.Invoke();
             instructionSteps[stepIndex].SetBool();
-            NextStep();
+            StartCoroutine(WaitStep());
+            //NextStep();
         }
         else
         {
@@ -191,7 +192,8 @@ public class InstructionManager : MonoBehaviour
                 StartCoroutine(ResetWord());
                 OnCorrectSubmit?.Invoke();
                 instructionSteps[stepIndex].SetBool();
-                NextStep();
+                StartCoroutine(WaitStep());
+                //NextStep();
             }
             else
             {
@@ -218,7 +220,8 @@ public class InstructionManager : MonoBehaviour
         {
             instructionSteps[stepIndex].gameObject.SetActive(false);
             stepIndex++;
-            if(stepIndex >= instructionSteps.Count)
+
+            if (stepIndex >= instructionSteps.Count)
             {
                 Debug.Log("Objective clear!");
                 instructionText.text = "Objektif tercapai! SIlahkan menuju pintu keluar!!";
@@ -228,6 +231,12 @@ public class InstructionManager : MonoBehaviour
             instructionText.text = instructionCommand + "''" + instructionSteps[stepIndex].ObjectiveGoal + "''";
             instructionSteps[stepIndex].gameObject.SetActive(true);
         }
+    }
+
+    private IEnumerator WaitStep()
+    {
+        yield return new WaitForSecondsRealtime(1.1f);
+        NextStep();
     }
 
     private IEnumerator ResetWord()
