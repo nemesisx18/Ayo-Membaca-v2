@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -9,14 +7,16 @@ public class GameState : MonoBehaviour
     [SerializeField] private Sprite unlockImage;
     [SerializeField] private GameObject finalPanel;
     [SerializeField] private BoxCollider2D finalFlag;
+    [SerializeField] private InstructionManager instructionManager;
 
     [SerializeField] private int bobotNilaiSoal;
     [SerializeField] private string nextLevel;
-    
+
     public static GameState gameInstance;
 
     public bool IsClear = false;
     public bool GameClear = false;
+    public int CurrentLevel;
     public int Score = 0;
 
     private void OnEnable()
@@ -40,6 +40,30 @@ public class GameState : MonoBehaviour
         else
         {
             Destroy(gameObject);
+        }
+
+        switch (instructionManager.CurrentLevel)
+        {
+            case InstructionManager.Level.LevelDasar1:
+                CurrentLevel = 0;
+                break;
+            case InstructionManager.Level.Level1:
+                CurrentLevel = 1;
+                break;
+            case InstructionManager.Level.Level2:
+                CurrentLevel = 2;
+                break;
+            case InstructionManager.Level.Level3:
+                CurrentLevel = 3;
+                break;
+            case InstructionManager.Level.Level4:
+                CurrentLevel = 4;
+                break;
+            case InstructionManager.Level.Level5:
+                CurrentLevel = 5;
+                break;
+            default:
+                break;
         }
     }
 

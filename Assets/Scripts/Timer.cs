@@ -39,9 +39,11 @@ public class Timer : MonoBehaviour
         DisplayTime(localTime);
     }
 
+    [ContextMenu("Save & stop time data")]
     public void StopTimer()
     {
         timerIsRunning = false;
+        SaveData.SaveInstance.UpdateLevelTime(localTime, GameState.gameInstance.CurrentLevel);
     }
 
     void DisplayTime(float timeToDisplay)

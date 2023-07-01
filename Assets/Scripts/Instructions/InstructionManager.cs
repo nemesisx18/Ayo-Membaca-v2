@@ -19,11 +19,13 @@ public class InstructionManager : MonoBehaviour
     private string currentAlphabet;
     private GameState gameState;
 
+    public Level CurrentLevel => currentLevel;
+
     public delegate void SubmitInstruction();
     public static event SubmitInstruction OnWrongSubmit;
     public static event SubmitInstruction OnCorrectSubmit;
 
-    private enum Level
+    public enum Level
     {
         LevelDasar1,
         LevelDasar2,
