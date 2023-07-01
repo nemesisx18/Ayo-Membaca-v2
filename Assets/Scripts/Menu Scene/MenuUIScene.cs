@@ -26,6 +26,7 @@ public class MenuUIScene : MonoBehaviour
 
     private void PertandinganSection()
     {
+        SaveData.SaveInstance.isLatihanMode = false;
         SceneManager.LoadScene(pertandinganSceneName);
     }
 }
