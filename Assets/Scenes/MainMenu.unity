@@ -958,7 +958,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   latihanButton: {fileID: 349611170}
   pertandinganButton: {fileID: 390153804}
-  latihanSceneName: LevelDasar1
+  latihanSceneName: LevelDasar1 Latihan
   pertandinganSceneName: LevelDasar1
 --- !u!1001 &1994259526
 PrefabInstance:
