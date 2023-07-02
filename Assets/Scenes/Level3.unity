@@ -32589,7 +32589,7 @@ MonoBehaviour:
   _isAlreadyHit: 0
   _hurufKonsonan: 0
   m_AudioSource: {fileID: 519420033}
-  hurufClip: {fileID: 8300000, guid: 7fc8e4c5866074a4889daa88b449e059, type: 3}
+  hurufClip: {fileID: 8300000, guid: ccc484dc4463f6c48a706cbebed6b4bd, type: 3}
 --- !u!50 &949611292
 Rigidbody2D:
   serializedVersion: 4

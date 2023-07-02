@@ -441,7 +441,7 @@ MonoBehaviour:
   _isAlreadyHit: 0
   _hurufKonsonan: 0
   m_AudioSource: {fileID: 519420033}
-  hurufClip: {fileID: 8300000, guid: ccc484dc4463f6c48a706cbebed6b4bd, type: 3}
+  hurufClip: {fileID: 8300000, guid: 7fc8e4c5866074a4889daa88b449e059, type: 3}
 --- !u!50 &38940579
 Rigidbody2D:
   serializedVersion: 4
@@ -35314,7 +35314,7 @@ MonoBehaviour:
   _isAlreadyHit: 0
   _hurufKonsonan: 0
   m_AudioSource: {fileID: 519420033}
-  hurufClip: {fileID: 8300000, guid: c7b7e8f052ecdff4f9fc3c58cdcc2782, type: 3}
+  hurufClip: {fileID: 8300000, guid: 120196a20d904314aaa29f9d77b4ca38, type: 3}
 --- !u!50 &1119738533
 Rigidbody2D:
   serializedVersion: 4
@@ -39412,7 +39412,7 @@ MonoBehaviour:
   _isAlreadyHit: 0
   _hurufKonsonan: 0
   m_AudioSource: {fileID: 519420033}
-  hurufClip: {fileID: 8300000, guid: 7fc8e4c5866074a4889daa88b449e059, type: 3}
+  hurufClip: {fileID: 8300000, guid: ccc484dc4463f6c48a706cbebed6b4bd, type: 3}
 --- !u!50 &1617901431
 Rigidbody2D:
   serializedVersion: 4

@@ -179,8 +179,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Animasi gabung huruf
       objectReference: {fileID: 0}
+    - target: {fileID: 2024579193963601161, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5961814394731460142, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
       propertyPath: isDoubleWord
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5961814394731460142, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: isDoubleWordKanan
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5961814394731460142, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
@@ -1269,7 +1277,7 @@ MonoBehaviour:
   m_AudioSource: {fileID: 519420033}
   goalClip: {fileID: 8300000, guid: 18987aa324bac8d40aadbe7129e8a7de, type: 3}
   hasilGabungClip: {fileID: 8300000, guid: 6aa908ac57c6c1348972e4c251acff70, type: 3}
-  animasiGabung: {fileID: 0}
+  animasiGabung: {fileID: 2031971386}
   objectiveGoal: wol
   stepDone: 0
   playFirst: 1
@@ -1704,7 +1712,7 @@ MonoBehaviour:
   m_AudioSource: {fileID: 519420033}
   goalClip: {fileID: 8300000, guid: 795cefc89ad19104e89114180ce5c41c, type: 3}
   hasilGabungClip: {fileID: 8300000, guid: 12eae53d9d30d6e40bbfa7eca7796375, type: 3}
-  animasiGabung: {fileID: 0}
+  animasiGabung: {fileID: 533448103}
   objectiveGoal: tas
   stepDone: 0
   playFirst: 1
@@ -1872,7 +1880,7 @@ MonoBehaviour:
   m_AudioSource: {fileID: 519420033}
   goalClip: {fileID: 8300000, guid: 0b2c49aa96baa3240adccecce4d89526, type: 3}
   hasilGabungClip: {fileID: 8300000, guid: e27c2bde721e4ce418fe23040c9c72c3, type: 3}
-  animasiGabung: {fileID: 0}
+  animasiGabung: {fileID: 1511346507}
   objectiveGoal: bel
   stepDone: 0
   playFirst: 1
@@ -2156,7 +2164,7 @@ MonoBehaviour:
   m_AudioSource: {fileID: 519420033}
   goalClip: {fileID: 8300000, guid: ae2299a00abe8ba43b1282c7e9fef209, type: 3}
   hasilGabungClip: {fileID: 8300000, guid: f3b5e26915846594f9a8483f783f8e0d, type: 3}
-  animasiGabung: {fileID: 0}
+  animasiGabung: {fileID: 238910951}
   objectiveGoal: lem
   stepDone: 0
   playFirst: 1
@@ -2919,6 +2927,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5961814394731460142, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
       propertyPath: isDoubleWord
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5961814394731460142, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: isDoubleWordKanan
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5961814394731460142, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
@@ -2941,6 +2953,11 @@ PrefabInstance:
 --- !u!4 &238910950 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+  m_PrefabInstance: {fileID: 238910949}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &238910951 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2024579193963601161, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
   m_PrefabInstance: {fileID: 238910949}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &251473585
@@ -37054,6 +37071,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5961814394731460142, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
       propertyPath: isDoubleWord
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5961814394731460142, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: isDoubleWordKanan
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5961814394731460142, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
@@ -37076,6 +37097,11 @@ PrefabInstance:
 --- !u!4 &360336635 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+  m_PrefabInstance: {fileID: 360336634}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &360336636 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2024579193963601161, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
   m_PrefabInstance: {fileID: 360336634}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &385478722
@@ -42350,7 +42376,7 @@ MonoBehaviour:
   m_AudioSource: {fileID: 519420033}
   goalClip: {fileID: 8300000, guid: 702c9d6d6cd025a48b673f6acdb56513, type: 3}
   hasilGabungClip: {fileID: 8300000, guid: 8d771a3da7d95774291db76714d12936, type: 3}
-  animasiGabung: {fileID: 0}
+  animasiGabung: {fileID: 587468902}
   objectiveGoal: cat
   stepDone: 0
   playFirst: 1
@@ -42430,6 +42456,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5961814394731460142, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
       propertyPath: isDoubleWord
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5961814394731460142, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: isDoubleWordKanan
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5961814394731460142, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
@@ -42452,6 +42482,11 @@ PrefabInstance:
 --- !u!4 &533448102 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+  m_PrefabInstance: {fileID: 533448101}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &533448103 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2024579193963601161, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
   m_PrefabInstance: {fileID: 533448101}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &557845735
@@ -43025,6 +43060,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5961814394731460142, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
       propertyPath: isDoubleWord
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5961814394731460142, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: isDoubleWordKanan
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5961814394731460142, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
@@ -43047,6 +43086,11 @@ PrefabInstance:
 --- !u!4 &587468901 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+  m_PrefabInstance: {fileID: 587468900}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &587468902 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2024579193963601161, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
   m_PrefabInstance: {fileID: 587468900}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &594995888
@@ -43972,7 +44016,7 @@ MonoBehaviour:
   m_AudioSource: {fileID: 519420033}
   goalClip: {fileID: 8300000, guid: cfcdb2db415070048972b5d441af9d14, type: 3}
   hasilGabungClip: {fileID: 8300000, guid: dd332dfdcca7ce54da6dbd0f062bcaea, type: 3}
-  animasiGabung: {fileID: 0}
+  animasiGabung: {fileID: 1683916132}
   objectiveGoal: cap
   stepDone: 0
   playFirst: 1
@@ -48827,6 +48871,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5961814394731460142, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
       propertyPath: isDoubleWord
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5961814394731460142, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: isDoubleWordKanan
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5961814394731460142, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
@@ -48849,6 +48897,11 @@ PrefabInstance:
 --- !u!4 &1177788179 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+  m_PrefabInstance: {fileID: 1177788178}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1177788180 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2024579193963601161, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
   m_PrefabInstance: {fileID: 1177788178}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1194048521
@@ -50524,6 +50577,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5961814394731460142, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
       propertyPath: isDoubleWord
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5961814394731460142, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: isDoubleWordKanan
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5961814394731460142, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
@@ -50546,6 +50603,11 @@ PrefabInstance:
 --- !u!4 &1423791390 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+  m_PrefabInstance: {fileID: 1423791389}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1423791391 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2024579193963601161, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
   m_PrefabInstance: {fileID: 1423791389}
   m_PrefabAsset: {fileID: 0}
 --- !u!4 &1429183708 stripped
@@ -51576,6 +51638,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5961814394731460142, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
       propertyPath: isDoubleWord
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5961814394731460142, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: isDoubleWordKanan
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5961814394731460142, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
@@ -51598,6 +51664,11 @@ PrefabInstance:
 --- !u!4 &1511346506 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+  m_PrefabInstance: {fileID: 1511346505}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1511346507 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2024579193963601161, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
   m_PrefabInstance: {fileID: 1511346505}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1519657191
@@ -52372,7 +52443,7 @@ MonoBehaviour:
   m_AudioSource: {fileID: 519420033}
   goalClip: {fileID: 8300000, guid: 469955d2e1bd84744831b35bfe983b93, type: 3}
   hasilGabungClip: {fileID: 8300000, guid: de471a93d0538c74e81ba633802c0d07, type: 3}
-  animasiGabung: {fileID: 0}
+  animasiGabung: {fileID: 1423791391}
   objectiveGoal: jas
   stepDone: 0
   playFirst: 1
@@ -53750,6 +53821,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5961814394731460142, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
       propertyPath: isDoubleWord
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5961814394731460142, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: isDoubleWordKanan
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5961814394731460142, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
@@ -53772,6 +53847,11 @@ PrefabInstance:
 --- !u!4 &1683916131 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+  m_PrefabInstance: {fileID: 1683916130}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1683916132 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2024579193963601161, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
   m_PrefabInstance: {fileID: 1683916130}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1704976875
@@ -54002,7 +54082,7 @@ MonoBehaviour:
   m_AudioSource: {fileID: 519420033}
   goalClip: {fileID: 8300000, guid: 16d2048761d17c146831778ac1a90e00, type: 3}
   hasilGabungClip: {fileID: 8300000, guid: 0b1457d68c830224f8a11dff91c18d3f, type: 3}
-  animasiGabung: {fileID: 0}
+  animasiGabung: {fileID: 360336636}
   objectiveGoal: kol
   stepDone: 0
   playFirst: 1
@@ -55720,6 +55800,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5961814394731460142, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
       propertyPath: isDoubleWord
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5961814394731460142, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: isDoubleWordKanan
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5961814394731460142, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
@@ -55742,6 +55826,11 @@ PrefabInstance:
 --- !u!4 &2031971385 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+  m_PrefabInstance: {fileID: 2031971384}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &2031971386 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2024579193963601161, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
   m_PrefabInstance: {fileID: 2031971384}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &2043531933
@@ -56115,7 +56204,7 @@ MonoBehaviour:
   m_AudioSource: {fileID: 519420033}
   goalClip: {fileID: 8300000, guid: b42e60f2bc329094ab22be14130037c7, type: 3}
   hasilGabungClip: {fileID: 8300000, guid: 57dd695b2f8996948bfec4f41a80f68b, type: 3}
-  animasiGabung: {fileID: 0}
+  animasiGabung: {fileID: 1177788180}
   objectiveGoal: jam
   stepDone: 0
   playFirst: 1
