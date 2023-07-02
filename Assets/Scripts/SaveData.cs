@@ -46,7 +46,6 @@ public class SaveData : MonoBehaviour
 
     public void UpdateLevelScore(int levelScore, int index)
     {
-        
         scores[index] = levelScore;
         Save();
     }

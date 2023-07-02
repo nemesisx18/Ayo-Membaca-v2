@@ -114,6 +114,7 @@ public class GameState : MonoBehaviour
     {
         GameClear = true;
         finalPanel.SetActive(true);
+        SaveData.SaveInstance.UpdateLevelScore(Score, CurrentLevel);
     }
 
     public void NextLevel()
