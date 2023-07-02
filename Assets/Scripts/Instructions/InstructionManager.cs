@@ -6,6 +6,9 @@ using UnityEngine.UI;
 
 public class InstructionManager : MonoBehaviour
 {
+    [SerializeField] private AudioSource m_AudioSource;
+    [SerializeField] private AudioClip m_Clip;
+    
     [SerializeField] private List<InstructionStep> instructionSteps = new List<InstructionStep>();
     [SerializeField] private Text instructionText;
     [SerializeField] private Text currentAbjadText;
@@ -132,14 +135,19 @@ public class InstructionManager : MonoBehaviour
         {
             OnCorrectSubmit?.Invoke();
             instructionSteps[stepIndex].SetBool();
-            StartCoroutine(WaitStep());
-            //NextStep();
+            if (currentLevel != Level.LevelDasar1)
+            {
+                StartCoroutine(WaitStep());
+                return;
+            }
+            NextStep();
         }
         else
         {
             if (!gameState.LatihanMode)
             {
                 Debug.Log("Wrong!!!!!");
+                m_AudioSource.PlayOneShot(m_Clip);
                 OnWrongSubmit?.Invoke();
             }
         }
@@ -192,8 +200,12 @@ public class InstructionManager : MonoBehaviour
                 StartCoroutine(ResetWord());
                 OnCorrectSubmit?.Invoke();
                 instructionSteps[stepIndex].SetBool();
-                StartCoroutine(WaitStep());
-                //NextStep();
+                if (currentLevel != Level.LevelDasar1)
+                {
+                    StartCoroutine(WaitStep());
+                    return;
+                }
+                NextStep();
             }
             else
             {
@@ -201,6 +213,7 @@ public class InstructionManager : MonoBehaviour
                 if (!gameState.LatihanMode)
                 {
                     Debug.Log("Wrong!!!!!");
+                    m_AudioSource.PlayOneShot(m_Clip);
                     OnWrongSubmit?.Invoke();
                 }
             }
@@ -235,7 +248,7 @@ public class InstructionManager : MonoBehaviour
 
     private IEnumerator WaitStep()
     {
-        yield return new WaitForSecondsRealtime(1.1f);
+        yield return new WaitForSecondsRealtime(3f);
         NextStep();
     }
 

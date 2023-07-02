@@ -14,6 +14,9 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private float moveSpeed = 7f;
     [SerializeField] private float jumpForce = 14f;
 
+    [SerializeField] private AudioSource audioSource;
+    [SerializeField] private AudioClip clip;
+
     private float dirX = 0f;
 
     public delegate void PlayerReachFInal();
@@ -112,6 +115,7 @@ public class PlayerMovement : MonoBehaviour
     {
         if(other.gameObject.tag == "Finish")
         {
+            audioSource.PlayOneShot(clip);
             OnFinish?.Invoke();
             Debug.Log("Level clear!!!");
         }

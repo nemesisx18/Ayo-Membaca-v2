@@ -440,8 +440,8 @@ MonoBehaviour:
   _dontDestroy: 0
   _isAlreadyHit: 0
   _hurufKonsonan: 0
-  m_AudioSource: {fileID: 0}
-  hurufClip: {fileID: 0}
+  m_AudioSource: {fileID: 519420033}
+  hurufClip: {fileID: 8300000, guid: ccc484dc4463f6c48a706cbebed6b4bd, type: 3}
 --- !u!50 &38940579
 Rigidbody2D:
   serializedVersion: 4
@@ -704,8 +704,8 @@ MonoBehaviour:
   _dontDestroy: 0
   _isAlreadyHit: 0
   _hurufKonsonan: 0
-  m_AudioSource: {fileID: 0}
-  hurufClip: {fileID: 0}
+  m_AudioSource: {fileID: 519420033}
+  hurufClip: {fileID: 8300000, guid: b7a1b98796bdc4749a6899d70636aa57, type: 3}
 --- !u!50 &47693860
 Rigidbody2D:
   serializedVersion: 4
@@ -884,8 +884,8 @@ MonoBehaviour:
   _dontDestroy: 0
   _isAlreadyHit: 0
   _hurufKonsonan: 0
-  m_AudioSource: {fileID: 0}
-  hurufClip: {fileID: 0}
+  m_AudioSource: {fileID: 519420033}
+  hurufClip: {fileID: 8300000, guid: 186a20fa8140b274f926646918c438c4, type: 3}
 --- !u!50 &79311434
 Rigidbody2D:
   serializedVersion: 4
@@ -1038,7 +1038,8 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 1629196856}
   m_Father: {fileID: 1640940386}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1057,10 +1058,12 @@ MonoBehaviour:
   m_AudioSource: {fileID: 519420033}
   goalClip: {fileID: 8300000, guid: 06764a5241c649c4f965c350829ff703, type: 3}
   hasilGabungClip: {fileID: 8300000, guid: b3b33929982a2b34d9047a6efc8fe87a, type: 3}
+  animasiGabung: {fileID: 1629196857}
   objectiveGoal: obat
   stepDone: 0
   playFirst: 1
   combineAbjad: 1
+  playAnimasi: 1
 --- !u!1 &114142352
 GameObject:
   m_ObjectHideFlags: 0
@@ -1115,8 +1118,8 @@ MonoBehaviour:
   _dontDestroy: 0
   _isAlreadyHit: 0
   _hurufKonsonan: 0
-  m_AudioSource: {fileID: 0}
-  hurufClip: {fileID: 0}
+  m_AudioSource: {fileID: 519420033}
+  hurufClip: {fileID: 8300000, guid: f0eae1fc4f5255c43b028623af3b7156, type: 3}
 --- !u!50 &114142355
 Rigidbody2D:
   serializedVersion: 4
@@ -1442,6 +1445,116 @@ RectTransform:
   m_AnchoredPosition: {x: -125, y: -188}
   m_SizeDelta: {x: 215, y: 68}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1001 &149733769
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 519420032}
+    m_Modifications:
+    - target: {fileID: 2151304406415654077, guid: e5e70418da5acdd4cbfb755890e853d7, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2151304406415654077, guid: e5e70418da5acdd4cbfb755890e853d7, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2151304406415654077, guid: e5e70418da5acdd4cbfb755890e853d7, type: 3}
+      propertyPath: m_RootOrder
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2151304406415654077, guid: e5e70418da5acdd4cbfb755890e853d7, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2151304406415654077, guid: e5e70418da5acdd4cbfb755890e853d7, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2151304406415654077, guid: e5e70418da5acdd4cbfb755890e853d7, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2151304406415654077, guid: e5e70418da5acdd4cbfb755890e853d7, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2151304406415654077, guid: e5e70418da5acdd4cbfb755890e853d7, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2151304406415654077, guid: e5e70418da5acdd4cbfb755890e853d7, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2151304406415654077, guid: e5e70418da5acdd4cbfb755890e853d7, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2151304406415654077, guid: e5e70418da5acdd4cbfb755890e853d7, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2151304406415654077, guid: e5e70418da5acdd4cbfb755890e853d7, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2151304406415654077, guid: e5e70418da5acdd4cbfb755890e853d7, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2151304406415654077, guid: e5e70418da5acdd4cbfb755890e853d7, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2151304406415654077, guid: e5e70418da5acdd4cbfb755890e853d7, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2151304406415654077, guid: e5e70418da5acdd4cbfb755890e853d7, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2151304406415654077, guid: e5e70418da5acdd4cbfb755890e853d7, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2151304406415654077, guid: e5e70418da5acdd4cbfb755890e853d7, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2151304406415654077, guid: e5e70418da5acdd4cbfb755890e853d7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2151304406415654077, guid: e5e70418da5acdd4cbfb755890e853d7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2151304406415654077, guid: e5e70418da5acdd4cbfb755890e853d7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2185129996144573011, guid: e5e70418da5acdd4cbfb755890e853d7, type: 3}
+      propertyPath: m_Name
+      value: BackgroundCanvas
+      objectReference: {fileID: 0}
+    - target: {fileID: 6650414884155728778, guid: e5e70418da5acdd4cbfb755890e853d7, type: 3}
+      propertyPath: m_Camera
+      value: 
+      objectReference: {fileID: 519420031}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e5e70418da5acdd4cbfb755890e853d7, type: 3}
+--- !u!224 &149733770 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 2151304406415654077, guid: e5e70418da5acdd4cbfb755890e853d7, type: 3}
+  m_PrefabInstance: {fileID: 149733769}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &162630746
 GameObject:
   m_ObjectHideFlags: 0
@@ -1470,7 +1583,8 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 1639505558}
   m_Father: {fileID: 1640940386}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1489,10 +1603,12 @@ MonoBehaviour:
   m_AudioSource: {fileID: 519420033}
   goalClip: {fileID: 8300000, guid: 6693469d9d8ca9844afd1b79dd38b7f5, type: 3}
   hasilGabungClip: {fileID: 8300000, guid: 5eef2120834ae714b932508e2c3128ce, type: 3}
+  animasiGabung: {fileID: 1639505557}
   objectiveGoal: ular
   stepDone: 0
   playFirst: 1
   combineAbjad: 1
+  playAnimasi: 1
 --- !u!1 &164793134
 GameObject:
   m_ObjectHideFlags: 0
@@ -1655,10 +1771,12 @@ MonoBehaviour:
   m_AudioSource: {fileID: 519420033}
   goalClip: {fileID: 8300000, guid: e93f14816ca3337439bc4b05ef3ea967, type: 3}
   hasilGabungClip: {fileID: 8300000, guid: 2ea722f0f6a351d4caab5b0b696833e0, type: 3}
+  animasiGabung: {fileID: 504046368}
   objectiveGoal: adik
   stepDone: 0
   playFirst: 1
   combineAbjad: 1
+  playAnimasi: 1
 --- !u!4 &173010631
 Transform:
   m_ObjectHideFlags: 0
@@ -1670,7 +1788,8 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 504046367}
   m_Father: {fileID: 1640940386}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1762,8 +1881,8 @@ MonoBehaviour:
   _dontDestroy: 0
   _isAlreadyHit: 0
   _hurufKonsonan: 0
-  m_AudioSource: {fileID: 0}
-  hurufClip: {fileID: 0}
+  m_AudioSource: {fileID: 519420033}
+  hurufClip: {fileID: 8300000, guid: f659d38e69ce07c418eb5bc37629135e, type: 3}
 --- !u!50 &184731696
 Rigidbody2D:
   serializedVersion: 4
@@ -1888,6 +2007,101 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1001 &186518520
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 531232984}
+    m_Modifications:
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_RootOrder
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2024579193963601161, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_Name
+      value: Animasi gabung huruf
+      objectReference: {fileID: 0}
+    - target: {fileID: 5961814394731460142, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: isDoubleWord
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5961814394731460142, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: isDoubleWordKanan
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5961814394731460142, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: hurufKiriLuarImage
+      value: 
+      objectReference: {fileID: 21300264, guid: ee1aa8dd1fc49614d89b7eb3f8af788b, type: 3}
+    - target: {fileID: 5961814394731460142, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: hurufKananLuarImage
+      value: 
+      objectReference: {fileID: 21300314, guid: ee1aa8dd1fc49614d89b7eb3f8af788b, type: 3}
+    - target: {fileID: 5961814394731460142, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: hurufKiriDalamImage
+      value: 
+      objectReference: {fileID: 21300322, guid: ee1aa8dd1fc49614d89b7eb3f8af788b, type: 3}
+    - target: {fileID: 5961814394731460142, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: hurufKananDalamImage
+      value: 
+      objectReference: {fileID: 21300272, guid: ee1aa8dd1fc49614d89b7eb3f8af788b, type: 3}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+--- !u!4 &186518521 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+  m_PrefabInstance: {fileID: 186518520}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &186518522 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2024579193963601161, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+  m_PrefabInstance: {fileID: 186518520}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &196869185
 GameObject:
   m_ObjectHideFlags: 0
@@ -1916,7 +2130,8 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 244594638}
   m_Father: {fileID: 1640940386}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1935,10 +2150,12 @@ MonoBehaviour:
   m_AudioSource: {fileID: 519420033}
   goalClip: {fileID: 8300000, guid: c711f9bcb00b619408a60ffb35f66978, type: 3}
   hasilGabungClip: {fileID: 8300000, guid: 857fc2eadaf306a45ba3dad471fac0b8, type: 3}
+  animasiGabung: {fileID: 244594639}
   objectiveGoal: imam
   stepDone: 0
   playFirst: 1
   combineAbjad: 1
+  playAnimasi: 1
 --- !u!1 &200564595
 GameObject:
   m_ObjectHideFlags: 0
@@ -2558,6 +2775,101 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6245636533917659073, guid: 7bc748a609914c04d84793adb1218f32, type: 3}
   m_PrefabInstance: {fileID: 8926431566791076987}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &244594637
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 196869186}
+    m_Modifications:
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_RootOrder
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2024579193963601161, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_Name
+      value: Animasi gabung huruf
+      objectReference: {fileID: 0}
+    - target: {fileID: 5961814394731460142, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: isDoubleWord
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5961814394731460142, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: isDoubleWordKanan
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5961814394731460142, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: hurufKiriLuarImage
+      value: 
+      objectReference: {fileID: 21300308, guid: ee1aa8dd1fc49614d89b7eb3f8af788b, type: 3}
+    - target: {fileID: 5961814394731460142, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: hurufKananLuarImage
+      value: 
+      objectReference: {fileID: 21300316, guid: ee1aa8dd1fc49614d89b7eb3f8af788b, type: 3}
+    - target: {fileID: 5961814394731460142, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: hurufKiriDalamImage
+      value: 
+      objectReference: {fileID: 21300316, guid: ee1aa8dd1fc49614d89b7eb3f8af788b, type: 3}
+    - target: {fileID: 5961814394731460142, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: hurufKananDalamImage
+      value: 
+      objectReference: {fileID: 21300264, guid: ee1aa8dd1fc49614d89b7eb3f8af788b, type: 3}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+--- !u!4 &244594638 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+  m_PrefabInstance: {fileID: 244594637}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &244594639 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2024579193963601161, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+  m_PrefabInstance: {fileID: 244594637}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &251473585
 GameObject:
   m_ObjectHideFlags: 0
@@ -3025,8 +3337,8 @@ MonoBehaviour:
   _dontDestroy: 0
   _isAlreadyHit: 0
   _hurufKonsonan: 0
-  m_AudioSource: {fileID: 0}
-  hurufClip: {fileID: 0}
+  m_AudioSource: {fileID: 519420033}
+  hurufClip: {fileID: 8300000, guid: f659d38e69ce07c418eb5bc37629135e, type: 3}
 --- !u!50 &303109341
 Rigidbody2D:
   serializedVersion: 4
@@ -3168,7 +3480,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &303680144
 Transform:
   m_ObjectHideFlags: 0
@@ -26467,6 +26779,101 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &430754257
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1617210390}
+    m_Modifications:
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_RootOrder
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2024579193963601161, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_Name
+      value: Animasi gabung huruf
+      objectReference: {fileID: 0}
+    - target: {fileID: 5961814394731460142, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: isDoubleWord
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5961814394731460142, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: isDoubleWordKanan
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5961814394731460142, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: hurufKiriLuarImage
+      value: 
+      objectReference: {fileID: 21300264, guid: ee1aa8dd1fc49614d89b7eb3f8af788b, type: 3}
+    - target: {fileID: 5961814394731460142, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: hurufKananLuarImage
+      value: 
+      objectReference: {fileID: 21300316, guid: ee1aa8dd1fc49614d89b7eb3f8af788b, type: 3}
+    - target: {fileID: 5961814394731460142, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: hurufKiriDalamImage
+      value: 
+      objectReference: {fileID: 21300400, guid: ee1aa8dd1fc49614d89b7eb3f8af788b, type: 3}
+    - target: {fileID: 5961814394731460142, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: hurufKananDalamImage
+      value: 
+      objectReference: {fileID: 21300264, guid: ee1aa8dd1fc49614d89b7eb3f8af788b, type: 3}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+--- !u!4 &430754258 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+  m_PrefabInstance: {fileID: 430754257}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &430754259 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2024579193963601161, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+  m_PrefabInstance: {fileID: 430754257}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &439603021
 GameObject:
   m_ObjectHideFlags: 0
@@ -26522,8 +26929,8 @@ MonoBehaviour:
   _dontDestroy: 0
   _isAlreadyHit: 0
   _hurufKonsonan: 0
-  m_AudioSource: {fileID: 0}
-  hurufClip: {fileID: 0}
+  m_AudioSource: {fileID: 519420033}
+  hurufClip: {fileID: 8300000, guid: 8bc83c7ca0b91d94590bf9f96b98a033, type: 3}
 --- !u!50 &439603024
 Rigidbody2D:
   serializedVersion: 4
@@ -27104,6 +27511,101 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1001 &504046366
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 173010631}
+    m_Modifications:
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_RootOrder
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2024579193963601161, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_Name
+      value: Animasi gabung huruf
+      objectReference: {fileID: 0}
+    - target: {fileID: 5961814394731460142, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: isDoubleWord
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5961814394731460142, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: isDoubleWordKanan
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5961814394731460142, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: hurufKiriLuarImage
+      value: 
+      objectReference: {fileID: 21300264, guid: ee1aa8dd1fc49614d89b7eb3f8af788b, type: 3}
+    - target: {fileID: 5961814394731460142, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: hurufKananLuarImage
+      value: 
+      objectReference: {fileID: 21300312, guid: ee1aa8dd1fc49614d89b7eb3f8af788b, type: 3}
+    - target: {fileID: 5961814394731460142, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: hurufKiriDalamImage
+      value: 
+      objectReference: {fileID: 21300270, guid: ee1aa8dd1fc49614d89b7eb3f8af788b, type: 3}
+    - target: {fileID: 5961814394731460142, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: hurufKananDalamImage
+      value: 
+      objectReference: {fileID: 21300308, guid: ee1aa8dd1fc49614d89b7eb3f8af788b, type: 3}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+--- !u!4 &504046367 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+  m_PrefabInstance: {fileID: 504046366}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &504046368 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2024579193963601161, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+  m_PrefabInstance: {fileID: 504046366}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &516078872
 GameObject:
   m_ObjectHideFlags: 0
@@ -29328,7 +29830,8 @@ Transform:
   m_LocalPosition: {x: 6, y: 3, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 149733770}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -29578,10 +30081,12 @@ MonoBehaviour:
   m_AudioSource: {fileID: 519420033}
   goalClip: {fileID: 8300000, guid: dccad881cb122364cb04c47d726fe873, type: 3}
   hasilGabungClip: {fileID: 8300000, guid: cd117d095bcbf834c903c865136096b4, type: 3}
+  animasiGabung: {fileID: 186518522}
   objectiveGoal: apel
   stepDone: 0
   playFirst: 1
   combineAbjad: 1
+  playAnimasi: 1
 --- !u!4 &531232984
 Transform:
   m_ObjectHideFlags: 0
@@ -29593,7 +30098,8 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 186518521}
   m_Father: {fileID: 1640940386}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -29816,8 +30322,8 @@ MonoBehaviour:
   _dontDestroy: 0
   _isAlreadyHit: 0
   _hurufKonsonan: 0
-  m_AudioSource: {fileID: 0}
-  hurufClip: {fileID: 0}
+  m_AudioSource: {fileID: 519420033}
+  hurufClip: {fileID: 8300000, guid: 235885afcbf2dcb419dc0315076d9d10, type: 3}
 --- !u!50 &583238789
 Rigidbody2D:
   serializedVersion: 4
@@ -29996,8 +30502,8 @@ MonoBehaviour:
   _dontDestroy: 0
   _isAlreadyHit: 0
   _hurufKonsonan: 0
-  m_AudioSource: {fileID: 0}
-  hurufClip: {fileID: 0}
+  m_AudioSource: {fileID: 519420033}
+  hurufClip: {fileID: 8300000, guid: a591ff717105d5444a7c1caba056f3e4, type: 3}
 --- !u!50 &583609233
 Rigidbody2D:
   serializedVersion: 4
@@ -30177,8 +30683,8 @@ MonoBehaviour:
   _dontDestroy: 0
   _isAlreadyHit: 0
   _hurufKonsonan: 0
-  m_AudioSource: {fileID: 0}
-  hurufClip: {fileID: 0}
+  m_AudioSource: {fileID: 519420033}
+  hurufClip: {fileID: 8300000, guid: 9299035053249304fa2d79a8dfb5a1a8, type: 3}
 --- !u!50 &594995891
 Rigidbody2D:
   serializedVersion: 4
@@ -30600,6 +31106,101 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1001 &614169337
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2103246034}
+    m_Modifications:
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_RootOrder
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2024579193963601161, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_Name
+      value: Animasi gabung huruf
+      objectReference: {fileID: 0}
+    - target: {fileID: 5961814394731460142, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: isDoubleWord
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5961814394731460142, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: isDoubleWordKanan
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5961814394731460142, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: hurufKiriLuarImage
+      value: 
+      objectReference: {fileID: 21300264, guid: ee1aa8dd1fc49614d89b7eb3f8af788b, type: 3}
+    - target: {fileID: 5961814394731460142, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: hurufKananLuarImage
+      value: 
+      objectReference: {fileID: 21300278, guid: ee1aa8dd1fc49614d89b7eb3f8af788b, type: 3}
+    - target: {fileID: 5961814394731460142, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: hurufKiriDalamImage
+      value: 
+      objectReference: {fileID: 21300400, guid: ee1aa8dd1fc49614d89b7eb3f8af788b, type: 3}
+    - target: {fileID: 5961814394731460142, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: hurufKananDalamImage
+      value: 
+      objectReference: {fileID: 21300264, guid: ee1aa8dd1fc49614d89b7eb3f8af788b, type: 3}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+--- !u!4 &614169338 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+  m_PrefabInstance: {fileID: 614169337}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &614169339 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2024579193963601161, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+  m_PrefabInstance: {fileID: 614169337}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &621645664
 GameObject:
   m_ObjectHideFlags: 0
@@ -30891,8 +31492,8 @@ MonoBehaviour:
   _dontDestroy: 0
   _isAlreadyHit: 0
   _hurufKonsonan: 0
-  m_AudioSource: {fileID: 0}
-  hurufClip: {fileID: 0}
+  m_AudioSource: {fileID: 519420033}
+  hurufClip: {fileID: 8300000, guid: 66322092d89656a4082cb2e16ac4231b, type: 3}
 --- !u!50 &635020434
 Rigidbody2D:
   serializedVersion: 4
@@ -31049,10 +31650,12 @@ MonoBehaviour:
   m_AudioSource: {fileID: 519420033}
   goalClip: {fileID: 8300000, guid: 8ae7e6b8f083e40409c44fb69594d05c, type: 3}
   hasilGabungClip: {fileID: 8300000, guid: e17bc489c4fd0c74d80f129b6ce939b8, type: 3}
+  animasiGabung: {fileID: 1628871854}
   objectiveGoal: alis
   stepDone: 0
   playFirst: 1
   combineAbjad: 1
+  playAnimasi: 1
 --- !u!4 &652758891
 Transform:
   m_ObjectHideFlags: 0
@@ -31064,7 +31667,8 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 1628871853}
   m_Father: {fileID: 1640940386}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -31455,8 +32059,8 @@ MonoBehaviour:
   _dontDestroy: 0
   _isAlreadyHit: 0
   _hurufKonsonan: 0
-  m_AudioSource: {fileID: 0}
-  hurufClip: {fileID: 0}
+  m_AudioSource: {fileID: 519420033}
+  hurufClip: {fileID: 8300000, guid: 7fc8e4c5866074a4889daa88b449e059, type: 3}
 --- !u!50 &728783909
 Rigidbody2D:
   serializedVersion: 4
@@ -31635,8 +32239,8 @@ MonoBehaviour:
   _dontDestroy: 0
   _isAlreadyHit: 0
   _hurufKonsonan: 0
-  m_AudioSource: {fileID: 0}
-  hurufClip: {fileID: 0}
+  m_AudioSource: {fileID: 519420033}
+  hurufClip: {fileID: 8300000, guid: f659d38e69ce07c418eb5bc37629135e, type: 3}
 --- !u!50 &731234512
 Rigidbody2D:
   serializedVersion: 4
@@ -31815,8 +32419,8 @@ MonoBehaviour:
   _dontDestroy: 0
   _isAlreadyHit: 0
   _hurufKonsonan: 0
-  m_AudioSource: {fileID: 0}
-  hurufClip: {fileID: 0}
+  m_AudioSource: {fileID: 519420033}
+  hurufClip: {fileID: 8300000, guid: d4fdaada4b2442d49bc3acf20bfb486a, type: 3}
 --- !u!50 &773732259
 Rigidbody2D:
   serializedVersion: 4
@@ -32232,8 +32836,8 @@ MonoBehaviour:
   _dontDestroy: 0
   _isAlreadyHit: 0
   _hurufKonsonan: 0
-  m_AudioSource: {fileID: 0}
-  hurufClip: {fileID: 0}
+  m_AudioSource: {fileID: 519420033}
+  hurufClip: {fileID: 8300000, guid: f08a3f1926bc1634c8d7613d1b102e52, type: 3}
 --- !u!50 &798951240
 Rigidbody2D:
   serializedVersion: 4
@@ -32594,8 +33198,8 @@ MonoBehaviour:
   _dontDestroy: 0
   _isAlreadyHit: 0
   _hurufKonsonan: 0
-  m_AudioSource: {fileID: 0}
-  hurufClip: {fileID: 0}
+  m_AudioSource: {fileID: 519420033}
+  hurufClip: {fileID: 8300000, guid: aa57a370db9414b4c9017f2046e0869a, type: 3}
 --- !u!50 &835719831
 Rigidbody2D:
   serializedVersion: 4
@@ -32775,8 +33379,8 @@ MonoBehaviour:
   _dontDestroy: 0
   _isAlreadyHit: 0
   _hurufKonsonan: 0
-  m_AudioSource: {fileID: 0}
-  hurufClip: {fileID: 0}
+  m_AudioSource: {fileID: 519420033}
+  hurufClip: {fileID: 8300000, guid: 330287aec8338f24292e1fe9ca23caf1, type: 3}
 --- !u!50 &859719608
 Rigidbody2D:
   serializedVersion: 4
@@ -33383,7 +33987,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -33813,8 +34417,8 @@ MonoBehaviour:
   _dontDestroy: 0
   _isAlreadyHit: 0
   _hurufKonsonan: 0
-  m_AudioSource: {fileID: 0}
-  hurufClip: {fileID: 0}
+  m_AudioSource: {fileID: 519420033}
+  hurufClip: {fileID: 8300000, guid: f659d38e69ce07c418eb5bc37629135e, type: 3}
 --- !u!50 &949611292
 Rigidbody2D:
   serializedVersion: 4
@@ -34629,7 +35233,8 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 1942539864}
   m_Father: {fileID: 1640940386}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -34648,10 +35253,12 @@ MonoBehaviour:
   m_AudioSource: {fileID: 519420033}
   goalClip: {fileID: 8300000, guid: 9fbc2395cf0b52a458dfcb8ffea1402c, type: 3}
   hasilGabungClip: {fileID: 8300000, guid: 0088fc04de68b1f479c9321c9786d01b, type: 3}
+  animasiGabung: {fileID: 1942539865}
   objectiveGoal: acar
   stepDone: 0
   playFirst: 1
   combineAbjad: 1
+  playAnimasi: 1
 --- !u!1 &1119738530
 GameObject:
   m_ObjectHideFlags: 0
@@ -34706,8 +35313,8 @@ MonoBehaviour:
   _dontDestroy: 0
   _isAlreadyHit: 0
   _hurufKonsonan: 0
-  m_AudioSource: {fileID: 0}
-  hurufClip: {fileID: 0}
+  m_AudioSource: {fileID: 519420033}
+  hurufClip: {fileID: 8300000, guid: c7b7e8f052ecdff4f9fc3c58cdcc2782, type: 3}
 --- !u!50 &1119738533
 Rigidbody2D:
   serializedVersion: 4
@@ -35233,8 +35840,8 @@ MonoBehaviour:
   _dontDestroy: 0
   _isAlreadyHit: 0
   _hurufKonsonan: 0
-  m_AudioSource: {fileID: 0}
-  hurufClip: {fileID: 0}
+  m_AudioSource: {fileID: 519420033}
+  hurufClip: {fileID: 8300000, guid: f659d38e69ce07c418eb5bc37629135e, type: 3}
 --- !u!50 &1154042847
 Rigidbody2D:
   serializedVersion: 4
@@ -35493,8 +36100,8 @@ MonoBehaviour:
   _dontDestroy: 0
   _isAlreadyHit: 0
   _hurufKonsonan: 0
-  m_AudioSource: {fileID: 0}
-  hurufClip: {fileID: 0}
+  m_AudioSource: {fileID: 519420033}
+  hurufClip: {fileID: 8300000, guid: 8d52a7bb3c7ca7040843a67563548dd1, type: 3}
 --- !u!50 &1194048524
 Rigidbody2D:
   serializedVersion: 4
@@ -35619,6 +36226,101 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1001 &1233419475
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1706176422}
+    m_Modifications:
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_RootOrder
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2024579193963601161, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_Name
+      value: Animasi gabung huruf
+      objectReference: {fileID: 0}
+    - target: {fileID: 5961814394731460142, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: isDoubleWord
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5961814394731460142, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: isDoubleWordKanan
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5961814394731460142, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: hurufKiriLuarImage
+      value: 
+      objectReference: {fileID: 21300308, guid: ee1aa8dd1fc49614d89b7eb3f8af788b, type: 3}
+    - target: {fileID: 5961814394731460142, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: hurufKananLuarImage
+      value: 
+      objectReference: {fileID: 21300318, guid: ee1aa8dd1fc49614d89b7eb3f8af788b, type: 3}
+    - target: {fileID: 5961814394731460142, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: hurufKiriDalamImage
+      value: 
+      objectReference: {fileID: 21300312, guid: ee1aa8dd1fc49614d89b7eb3f8af788b, type: 3}
+    - target: {fileID: 5961814394731460142, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: hurufKananDalamImage
+      value: 
+      objectReference: {fileID: 21300264, guid: ee1aa8dd1fc49614d89b7eb3f8af788b, type: 3}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+--- !u!4 &1233419476 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+  m_PrefabInstance: {fileID: 1233419475}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1233419477 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2024579193963601161, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+  m_PrefabInstance: {fileID: 1233419475}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1239723272
 GameObject:
   m_ObjectHideFlags: 0
@@ -36688,8 +37390,8 @@ MonoBehaviour:
   _dontDestroy: 0
   _isAlreadyHit: 0
   _hurufKonsonan: 0
-  m_AudioSource: {fileID: 0}
-  hurufClip: {fileID: 0}
+  m_AudioSource: {fileID: 519420033}
+  hurufClip: {fileID: 8300000, guid: f0eae1fc4f5255c43b028623af3b7156, type: 3}
 --- !u!50 &1371415816
 Rigidbody2D:
   serializedVersion: 4
@@ -36831,7 +37533,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1378989565
 RectTransform:
   m_ObjectHideFlags: 0
@@ -37827,8 +38529,8 @@ MonoBehaviour:
   _dontDestroy: 0
   _isAlreadyHit: 0
   _hurufKonsonan: 0
-  m_AudioSource: {fileID: 0}
-  hurufClip: {fileID: 0}
+  m_AudioSource: {fileID: 519420033}
+  hurufClip: {fileID: 8300000, guid: f09cdc5171976c14fada693b95f82b9b, type: 3}
 --- !u!50 &1503640039
 Rigidbody2D:
   serializedVersion: 4
@@ -38391,8 +39093,8 @@ MonoBehaviour:
   _dontDestroy: 0
   _isAlreadyHit: 0
   _hurufKonsonan: 0
-  m_AudioSource: {fileID: 0}
-  hurufClip: {fileID: 0}
+  m_AudioSource: {fileID: 519420033}
+  hurufClip: {fileID: 8300000, guid: a591ff717105d5444a7c1caba056f3e4, type: 3}
 --- !u!50 &1570865855
 Rigidbody2D:
   serializedVersion: 4
@@ -38629,7 +39331,8 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 430754258}
   m_Father: {fileID: 1640940386}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -38648,10 +39351,12 @@ MonoBehaviour:
   m_AudioSource: {fileID: 519420033}
   goalClip: {fileID: 8300000, guid: 2f762b57a8e04d947a4e436ab7ee3c33, type: 3}
   hasilGabungClip: {fileID: 8300000, guid: d18ca5c706a23f944bcd26409a5d40c8, type: 3}
+  animasiGabung: {fileID: 430754259}
   objectiveGoal: ayam
   stepDone: 0
   playFirst: 1
   combineAbjad: 1
+  playAnimasi: 1
 --- !u!1 &1617901428
 GameObject:
   m_ObjectHideFlags: 0
@@ -38706,8 +39411,8 @@ MonoBehaviour:
   _dontDestroy: 0
   _isAlreadyHit: 0
   _hurufKonsonan: 0
-  m_AudioSource: {fileID: 0}
-  hurufClip: {fileID: 0}
+  m_AudioSource: {fileID: 519420033}
+  hurufClip: {fileID: 8300000, guid: 7fc8e4c5866074a4889daa88b449e059, type: 3}
 --- !u!50 &1617901431
 Rigidbody2D:
   serializedVersion: 4
@@ -39013,6 +39718,8 @@ MonoBehaviour:
     m_Bits: 64
   moveSpeed: 7
   jumpForce: 16
+  audioSource: {fileID: 519420033}
+  clip: {fileID: 8300000, guid: 5e4f15fdaecbae14fa7442dd42eb5e4a, type: 3}
 --- !u!95 &1627218687
 Animator:
   serializedVersion: 5
@@ -39072,6 +39779,196 @@ MonoBehaviour:
   maxX: 35
   minY: 3
   maxY: 4
+--- !u!1001 &1628871852
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 652758891}
+    m_Modifications:
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_RootOrder
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2024579193963601161, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_Name
+      value: Animasi gabung huruf
+      objectReference: {fileID: 0}
+    - target: {fileID: 5961814394731460142, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: isDoubleWord
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5961814394731460142, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: isDoubleWordKanan
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5961814394731460142, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: hurufKiriLuarImage
+      value: 
+      objectReference: {fileID: 21300264, guid: ee1aa8dd1fc49614d89b7eb3f8af788b, type: 3}
+    - target: {fileID: 5961814394731460142, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: hurufKananLuarImage
+      value: 
+      objectReference: {fileID: 21300356, guid: ee1aa8dd1fc49614d89b7eb3f8af788b, type: 3}
+    - target: {fileID: 5961814394731460142, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: hurufKiriDalamImage
+      value: 
+      objectReference: {fileID: 21300314, guid: ee1aa8dd1fc49614d89b7eb3f8af788b, type: 3}
+    - target: {fileID: 5961814394731460142, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: hurufKananDalamImage
+      value: 
+      objectReference: {fileID: 21300308, guid: ee1aa8dd1fc49614d89b7eb3f8af788b, type: 3}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+--- !u!4 &1628871853 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+  m_PrefabInstance: {fileID: 1628871852}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1628871854 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2024579193963601161, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+  m_PrefabInstance: {fileID: 1628871852}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1629196855
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 111758190}
+    m_Modifications:
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_RootOrder
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2024579193963601161, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_Name
+      value: Animasi gabung huruf
+      objectReference: {fileID: 0}
+    - target: {fileID: 5961814394731460142, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: isDoubleWord
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5961814394731460142, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: isDoubleWordKanan
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5961814394731460142, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: hurufKiriLuarImage
+      value: 
+      objectReference: {fileID: 21300320, guid: ee1aa8dd1fc49614d89b7eb3f8af788b, type: 3}
+    - target: {fileID: 5961814394731460142, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: hurufKananLuarImage
+      value: 
+      objectReference: {fileID: 21300358, guid: ee1aa8dd1fc49614d89b7eb3f8af788b, type: 3}
+    - target: {fileID: 5961814394731460142, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: hurufKiriDalamImage
+      value: 
+      objectReference: {fileID: 21300266, guid: ee1aa8dd1fc49614d89b7eb3f8af788b, type: 3}
+    - target: {fileID: 5961814394731460142, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: hurufKananDalamImage
+      value: 
+      objectReference: {fileID: 21300264, guid: ee1aa8dd1fc49614d89b7eb3f8af788b, type: 3}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+--- !u!4 &1629196856 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+  m_PrefabInstance: {fileID: 1629196855}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1629196857 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2024579193963601161, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+  m_PrefabInstance: {fileID: 1629196855}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1629885795
 GameObject:
   m_ObjectHideFlags: 0
@@ -39510,6 +40407,101 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1001 &1639505556
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 162630747}
+    m_Modifications:
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_RootOrder
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2024579193963601161, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_Name
+      value: Animasi gabung huruf
+      objectReference: {fileID: 0}
+    - target: {fileID: 5961814394731460142, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: isDoubleWord
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5961814394731460142, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: isDoubleWordKanan
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5961814394731460142, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: hurufKiriLuarImage
+      value: 
+      objectReference: {fileID: 21300360, guid: ee1aa8dd1fc49614d89b7eb3f8af788b, type: 3}
+    - target: {fileID: 5961814394731460142, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: hurufKananLuarImage
+      value: 
+      objectReference: {fileID: 21300354, guid: ee1aa8dd1fc49614d89b7eb3f8af788b, type: 3}
+    - target: {fileID: 5961814394731460142, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: hurufKiriDalamImage
+      value: 
+      objectReference: {fileID: 21300314, guid: ee1aa8dd1fc49614d89b7eb3f8af788b, type: 3}
+    - target: {fileID: 5961814394731460142, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: hurufKananDalamImage
+      value: 
+      objectReference: {fileID: 21300264, guid: ee1aa8dd1fc49614d89b7eb3f8af788b, type: 3}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+--- !u!1 &1639505557 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2024579193963601161, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+  m_PrefabInstance: {fileID: 1639505556}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1639505558 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+  m_PrefabInstance: {fileID: 1639505556}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1640940384
 GameObject:
   m_ObjectHideFlags: 0
@@ -39539,6 +40531,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9a999bcea484684db1f255d680458e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_AudioSource: {fileID: 519420033}
+  m_Clip: {fileID: 8300000, guid: 356a201d600825442bb4c412be14daea, type: 3}
   instructionSteps:
   - {fileID: 1116018517}
   - {fileID: 173010630}
@@ -39840,8 +40834,8 @@ MonoBehaviour:
   _dontDestroy: 0
   _isAlreadyHit: 0
   _hurufKonsonan: 0
-  m_AudioSource: {fileID: 0}
-  hurufClip: {fileID: 0}
+  m_AudioSource: {fileID: 519420033}
+  hurufClip: {fileID: 8300000, guid: b24ddcef8cd46564f99789a2390b1563, type: 3}
 --- !u!50 &1678153228
 Rigidbody2D:
   serializedVersion: 4
@@ -40021,8 +41015,8 @@ MonoBehaviour:
   _dontDestroy: 0
   _isAlreadyHit: 0
   _hurufKonsonan: 0
-  m_AudioSource: {fileID: 0}
-  hurufClip: {fileID: 0}
+  m_AudioSource: {fileID: 519420033}
+  hurufClip: {fileID: 8300000, guid: 330287aec8338f24292e1fe9ca23caf1, type: 3}
 --- !u!50 &1704976878
 Rigidbody2D:
   serializedVersion: 4
@@ -40175,7 +41169,8 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 1233419476}
   m_Father: {fileID: 1640940386}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -40194,10 +41189,12 @@ MonoBehaviour:
   m_AudioSource: {fileID: 519420033}
   goalClip: {fileID: 8300000, guid: 0153f6e7b2ae6544fa7ceac7f1f5667a, type: 3}
   hasilGabungClip: {fileID: 8300000, guid: 4d3366f6b716efd46a70c31285e29aca, type: 3}
+  animasiGabung: {fileID: 1233419477}
   objectiveGoal: ikan
   stepDone: 0
   playFirst: 1
   combineAbjad: 1
+  playAnimasi: 1
 --- !u!1 &1717554993
 GameObject:
   m_ObjectHideFlags: 0
@@ -40750,8 +41747,8 @@ MonoBehaviour:
   _dontDestroy: 0
   _isAlreadyHit: 0
   _hurufKonsonan: 0
-  m_AudioSource: {fileID: 0}
-  hurufClip: {fileID: 0}
+  m_AudioSource: {fileID: 519420033}
+  hurufClip: {fileID: 8300000, guid: 7944dcc26ff27fc4187fa62f77057d98, type: 3}
 --- !u!50 &1857482112
 Rigidbody2D:
   serializedVersion: 4
@@ -41014,8 +42011,8 @@ MonoBehaviour:
   _dontDestroy: 0
   _isAlreadyHit: 0
   _hurufKonsonan: 0
-  m_AudioSource: {fileID: 0}
-  hurufClip: {fileID: 0}
+  m_AudioSource: {fileID: 519420033}
+  hurufClip: {fileID: 8300000, guid: f659d38e69ce07c418eb5bc37629135e, type: 3}
 --- !u!50 &1875996237
 Rigidbody2D:
   serializedVersion: 4
@@ -41365,6 +42362,101 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1942539863
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1116018516}
+    m_Modifications:
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2024579193963601161, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_Name
+      value: Animasi gabung huruf
+      objectReference: {fileID: 0}
+    - target: {fileID: 5961814394731460142, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: isDoubleWord
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5961814394731460142, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: isDoubleWordKanan
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5961814394731460142, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: hurufKiriLuarImage
+      value: 
+      objectReference: {fileID: 21300264, guid: ee1aa8dd1fc49614d89b7eb3f8af788b, type: 3}
+    - target: {fileID: 5961814394731460142, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: hurufKananLuarImage
+      value: 
+      objectReference: {fileID: 21300354, guid: ee1aa8dd1fc49614d89b7eb3f8af788b, type: 3}
+    - target: {fileID: 5961814394731460142, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: hurufKiriDalamImage
+      value: 
+      objectReference: {fileID: 21300268, guid: ee1aa8dd1fc49614d89b7eb3f8af788b, type: 3}
+    - target: {fileID: 5961814394731460142, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: hurufKananDalamImage
+      value: 
+      objectReference: {fileID: 21300264, guid: ee1aa8dd1fc49614d89b7eb3f8af788b, type: 3}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+--- !u!4 &1942539864 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+  m_PrefabInstance: {fileID: 1942539863}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1942539865 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2024579193963601161, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+  m_PrefabInstance: {fileID: 1942539863}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1971051037
 GameObject:
   m_ObjectHideFlags: 0
@@ -41918,9 +43010,9 @@ RectTransform:
   m_Father: {fileID: 1355586720}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 1}
-  m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 0, y: -150}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 223, y: -170}
   m_SizeDelta: {x: 200, y: 80}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2101498405
@@ -42037,10 +43129,12 @@ MonoBehaviour:
   m_AudioSource: {fileID: 519420033}
   goalClip: {fileID: 8300000, guid: f5cc56e03c6e40047a660e24385685fe, type: 3}
   hasilGabungClip: {fileID: 8300000, guid: 3c28aa0d361f8c648943e0b7045fc412, type: 3}
+  animasiGabung: {fileID: 614169339}
   objectiveGoal: ayah
   stepDone: 0
   playFirst: 1
   combineAbjad: 1
+  playAnimasi: 1
 --- !u!4 &2103246034
 Transform:
   m_ObjectHideFlags: 0
@@ -42052,7 +43146,8 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 614169338}
   m_Father: {fileID: 1640940386}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -42111,8 +43206,8 @@ MonoBehaviour:
   _dontDestroy: 0
   _isAlreadyHit: 0
   _hurufKonsonan: 0
-  m_AudioSource: {fileID: 0}
-  hurufClip: {fileID: 0}
+  m_AudioSource: {fileID: 519420033}
+  hurufClip: {fileID: 8300000, guid: 06f59592c0935194db70a39a2d0cc3c2, type: 3}
 --- !u!50 &2125935402
 Rigidbody2D:
   serializedVersion: 4

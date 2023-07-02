@@ -123,6 +123,60 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &3882148
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3882150}
+  - component: {fileID: 3882149}
+  m_Layer: 0
+  m_Name: 4 (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &3882149
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3882148}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d243ed37456befd4792606e332d5490e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_AudioSource: {fileID: 519420034}
+  goalClip: {fileID: 8300000, guid: 6230be36f2adb7747808dc64becde99b, type: 3}
+  hasilGabungClip: {fileID: 0}
+  animasiGabung: {fileID: 767387220}
+  objectiveGoal: mi
+  stepDone: 0
+  playFirst: 0
+  combineAbjad: 0
+  playAnimasi: 1
+--- !u!4 &3882150
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3882148}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 767387221}
+  m_Father: {fileID: 1183845827}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &38940576
 GameObject:
   m_ObjectHideFlags: 0
@@ -563,10 +617,170 @@ MonoBehaviour:
   m_AudioSource: {fileID: 519420034}
   goalClip: {fileID: 8300000, guid: 79a9740b8742c0c468acef0f25719e2d, type: 3}
   hasilGabungClip: {fileID: 0}
+  animasiGabung: {fileID: 0}
   objectiveGoal: do
   stepDone: 0
   playFirst: 0
   combineAbjad: 0
+  playAnimasi: 0
+--- !u!1001 &70784557
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 242629544}
+    m_Modifications:
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2024579193963601161, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_Name
+      value: Animasi gabung huruf
+      objectReference: {fileID: 0}
+    - target: {fileID: 5961814394731460142, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: hurufKiriDalamImage
+      value: 
+      objectReference: {fileID: 21300312, guid: ee1aa8dd1fc49614d89b7eb3f8af788b, type: 3}
+    - target: {fileID: 5961814394731460142, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: hurufKananDalamImage
+      value: 
+      objectReference: {fileID: 21300360, guid: ee1aa8dd1fc49614d89b7eb3f8af788b, type: 3}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+--- !u!1 &70784558 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2024579193963601161, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+  m_PrefabInstance: {fileID: 70784557}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &70784559 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+  m_PrefabInstance: {fileID: 70784557}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &80684753
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1676569550}
+    m_Modifications:
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2024579193963601161, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_Name
+      value: Animasi gabung huruf
+      objectReference: {fileID: 0}
+    - target: {fileID: 5961814394731460142, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: hurufKiriDalamImage
+      value: 
+      objectReference: {fileID: 21300266, guid: ee1aa8dd1fc49614d89b7eb3f8af788b, type: 3}
+    - target: {fileID: 5961814394731460142, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: hurufKananDalamImage
+      value: 
+      objectReference: {fileID: 21300360, guid: ee1aa8dd1fc49614d89b7eb3f8af788b, type: 3}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+--- !u!1 &80684754 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2024579193963601161, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+  m_PrefabInstance: {fileID: 80684753}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &80684755 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+  m_PrefabInstance: {fileID: 80684753}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &95991666
 GameObject:
   m_ObjectHideFlags: 0
@@ -670,6 +884,85 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!1001 &111230132
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 451730421}
+    m_Modifications:
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2024579193963601161, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_Name
+      value: Animasi gabung huruf
+      objectReference: {fileID: 0}
+    - target: {fileID: 5961814394731460142, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: hurufKiriDalamImage
+      value: 
+      objectReference: {fileID: 21300270, guid: ee1aa8dd1fc49614d89b7eb3f8af788b, type: 3}
+    - target: {fileID: 5961814394731460142, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: hurufKananDalamImage
+      value: 
+      objectReference: {fileID: 21300308, guid: ee1aa8dd1fc49614d89b7eb3f8af788b, type: 3}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+--- !u!1 &111230133 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2024579193963601161, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+  m_PrefabInstance: {fileID: 111230132}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &111230134 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+  m_PrefabInstance: {fileID: 111230132}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &112982536
 GameObject:
   m_ObjectHideFlags: 0
@@ -717,10 +1010,12 @@ MonoBehaviour:
   m_AudioSource: {fileID: 519420034}
   goalClip: {fileID: 8300000, guid: ac98dab554c984c4e8e855d39e09e6e6, type: 3}
   hasilGabungClip: {fileID: 0}
+  animasiGabung: {fileID: 0}
   objectiveGoal: ki
   stepDone: 0
   playFirst: 0
   combineAbjad: 0
+  playAnimasi: 0
 --- !u!1 &125675439
 GameObject:
   m_ObjectHideFlags: 0
@@ -852,10 +1147,12 @@ MonoBehaviour:
   m_AudioSource: {fileID: 519420034}
   goalClip: {fileID: 8300000, guid: dfc64ec844ae1944582e7a551fa1aadb, type: 3}
   hasilGabungClip: {fileID: 0}
+  animasiGabung: {fileID: 0}
   objectiveGoal: bu
   stepDone: 0
   playFirst: 0
   combineAbjad: 0
+  playAnimasi: 0
 --- !u!1 &132740767
 GameObject:
   m_ObjectHideFlags: 0
@@ -903,10 +1200,12 @@ MonoBehaviour:
   m_AudioSource: {fileID: 519420034}
   goalClip: {fileID: 8300000, guid: f52e855e230ae4e428f7e73f5cb94c34, type: 3}
   hasilGabungClip: {fileID: 0}
+  animasiGabung: {fileID: 0}
   objectiveGoal: du
   stepDone: 0
   playFirst: 0
   combineAbjad: 0
+  playAnimasi: 0
 --- !u!1 &145865240
 GameObject:
   m_ObjectHideFlags: 0
@@ -944,6 +1243,193 @@ RectTransform:
   m_AnchoredPosition: {x: -125, y: -188}
   m_SizeDelta: {x: 215, y: 68}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &147008033
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 147008035}
+  - component: {fileID: 147008034}
+  m_Layer: 0
+  m_Name: 3 (3)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &147008034
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 147008033}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d243ed37456befd4792606e332d5490e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_AudioSource: {fileID: 519420034}
+  goalClip: {fileID: 8300000, guid: 986d7086327207943bec6b254ce92656, type: 3}
+  hasilGabungClip: {fileID: 0}
+  animasiGabung: {fileID: 1435073581}
+  objectiveGoal: ge
+  stepDone: 0
+  playFirst: 0
+  combineAbjad: 0
+  playAnimasi: 1
+--- !u!4 &147008035
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 147008033}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1435073582}
+  m_Father: {fileID: 1183845827}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &161607118
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 310900983}
+    m_Modifications:
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2024579193963601161, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_Name
+      value: Animasi gabung huruf
+      objectReference: {fileID: 0}
+    - target: {fileID: 5961814394731460142, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: hurufKiriDalamImage
+      value: 
+      objectReference: {fileID: 21300266, guid: ee1aa8dd1fc49614d89b7eb3f8af788b, type: 3}
+    - target: {fileID: 5961814394731460142, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: hurufKananDalamImage
+      value: 
+      objectReference: {fileID: 21300308, guid: ee1aa8dd1fc49614d89b7eb3f8af788b, type: 3}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+--- !u!1 &161607119 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2024579193963601161, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+  m_PrefabInstance: {fileID: 161607118}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &161607120 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+  m_PrefabInstance: {fileID: 161607118}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &162175109
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 162175111}
+  - component: {fileID: 162175110}
+  m_Layer: 0
+  m_Name: 5 (3)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &162175110
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 162175109}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d243ed37456befd4792606e332d5490e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_AudioSource: {fileID: 519420034}
+  goalClip: {fileID: 8300000, guid: f5df42eed795f884f9fee15c49f078ab, type: 3}
+  hasilGabungClip: {fileID: 0}
+  animasiGabung: {fileID: 1606818295}
+  objectiveGoal: ke
+  stepDone: 0
+  playFirst: 0
+  combineAbjad: 0
+  playAnimasi: 1
+--- !u!4 &162175111
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 162175109}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1606818296}
+  m_Father: {fileID: 1183845827}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &164793134
 GameObject:
   m_ObjectHideFlags: 0
@@ -1003,7 +1489,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 2
-  m_Sprite: {fileID: 21300000, guid: 68f54e5fc0fa326458d3e18bdccce704, type: 3}
+  m_Sprite: {fileID: 6851063822677676398, guid: 32726eef68207514bbede9c6509379b5, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1027,7 +1513,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &164793137
 BoxCollider2D:
@@ -1058,7 +1544,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: -0.066537745, y: 0}
@@ -1074,6 +1560,114 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.5069245, y: 0.64}
   m_EdgeRadius: 0
+--- !u!1 &169340904
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 169340906}
+  - component: {fileID: 169340905}
+  m_Layer: 0
+  m_Name: 4 (4)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &169340905
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 169340904}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d243ed37456befd4792606e332d5490e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_AudioSource: {fileID: 519420034}
+  goalClip: {fileID: 8300000, guid: 97bb33328ce2224478993beada2eeb97, type: 3}
+  hasilGabungClip: {fileID: 0}
+  animasiGabung: {fileID: 1489488530}
+  objectiveGoal: mo
+  stepDone: 0
+  playFirst: 0
+  combineAbjad: 0
+  playAnimasi: 1
+--- !u!4 &169340906
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 169340904}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1489488531}
+  m_Father: {fileID: 1183845827}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &172781949
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 172781951}
+  - component: {fileID: 172781950}
+  m_Layer: 0
+  m_Name: 3 (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &172781950
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 172781949}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d243ed37456befd4792606e332d5490e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_AudioSource: {fileID: 519420034}
+  goalClip: {fileID: 8300000, guid: 2fdbb0ba05ae8e540bf4bf5d5ab88a44, type: 3}
+  hasilGabungClip: {fileID: 0}
+  animasiGabung: {fileID: 2066048176}
+  objectiveGoal: gi
+  stepDone: 0
+  playFirst: 0
+  combineAbjad: 0
+  playAnimasi: 1
+--- !u!4 &172781951
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 172781949}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2066048177}
+  m_Father: {fileID: 1183845827}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &173010629
 GameObject:
   m_ObjectHideFlags: 0
@@ -1106,10 +1700,12 @@ MonoBehaviour:
   m_AudioSource: {fileID: 519420034}
   goalClip: {fileID: 8300000, guid: 9afe28432122cd84e9cdc0ee73d2a850, type: 3}
   hasilGabungClip: {fileID: 0}
+  animasiGabung: {fileID: 0}
   objectiveGoal: da
   stepDone: 0
   playFirst: 0
   combineAbjad: 0
+  playAnimasi: 0
 --- !u!4 &173010631
 Transform:
   m_ObjectHideFlags: 0
@@ -1123,6 +1719,60 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1640940386}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &174780504
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 174780506}
+  - component: {fileID: 174780505}
+  m_Layer: 0
+  m_Name: 4 (3)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &174780505
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 174780504}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d243ed37456befd4792606e332d5490e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_AudioSource: {fileID: 519420034}
+  goalClip: {fileID: 8300000, guid: fac6ed8de65727c45ab6261c0c362ff1, type: 3}
+  hasilGabungClip: {fileID: 0}
+  animasiGabung: {fileID: 1665094565}
+  objectiveGoal: me
+  stepDone: 0
+  playFirst: 0
+  combineAbjad: 0
+  playAnimasi: 1
+--- !u!4 &174780506
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 174780504}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1665094566}
+  m_Father: {fileID: 1183845827}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &195647171 stripped
@@ -1168,7 +1818,7 @@ Transform:
   - {fileID: 1863186097}
   - {fileID: 1953941649}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &232559518
 GameObject:
@@ -1217,10 +1867,174 @@ MonoBehaviour:
   m_AudioSource: {fileID: 519420034}
   goalClip: {fileID: 8300000, guid: f5df42eed795f884f9fee15c49f078ab, type: 3}
   hasilGabungClip: {fileID: 0}
+  animasiGabung: {fileID: 0}
   objectiveGoal: ke
   stepDone: 0
   playFirst: 0
   combineAbjad: 0
+  playAnimasi: 0
+--- !u!1 &236042818
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 236042820}
+  - component: {fileID: 236042819}
+  m_Layer: 0
+  m_Name: 3 (4)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &236042819
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 236042818}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d243ed37456befd4792606e332d5490e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_AudioSource: {fileID: 519420034}
+  goalClip: {fileID: 8300000, guid: e96edd6777ecc93409ee803bae3b3641, type: 3}
+  hasilGabungClip: {fileID: 0}
+  animasiGabung: {fileID: 535061567}
+  objectiveGoal: go
+  stepDone: 0
+  playFirst: 0
+  combineAbjad: 0
+  playAnimasi: 1
+--- !u!4 &236042820
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 236042818}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 535061568}
+  m_Father: {fileID: 1183845827}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &242629542
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 242629544}
+  - component: {fileID: 242629543}
+  m_Layer: 0
+  m_Name: 5 (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &242629543
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 242629542}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d243ed37456befd4792606e332d5490e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_AudioSource: {fileID: 519420034}
+  goalClip: {fileID: 8300000, guid: 1fbceba2b9aacff4ca5cbcd49111e364, type: 3}
+  hasilGabungClip: {fileID: 0}
+  animasiGabung: {fileID: 70784558}
+  objectiveGoal: ku
+  stepDone: 0
+  playFirst: 0
+  combineAbjad: 0
+  playAnimasi: 1
+--- !u!4 &242629544
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 242629542}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 70784559}
+  m_Father: {fileID: 1183845827}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &250623581
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 250623583}
+  - component: {fileID: 250623582}
+  m_Layer: 0
+  m_Name: 2 (3)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &250623582
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 250623581}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d243ed37456befd4792606e332d5490e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_AudioSource: {fileID: 519420034}
+  goalClip: {fileID: 8300000, guid: cc8ae407ef038fd47b198b8c34f1d12c, type: 3}
+  hasilGabungClip: {fileID: 0}
+  animasiGabung: {fileID: 1919253082}
+  objectiveGoal: de
+  stepDone: 0
+  playFirst: 0
+  combineAbjad: 0
+  playAnimasi: 1
+--- !u!4 &250623583
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 250623581}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1919253083}
+  m_Father: {fileID: 1183845827}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &251473585
 GameObject:
   m_ObjectHideFlags: 0
@@ -1301,6 +2115,60 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 251473585}
   m_CullTransparentMesh: 1
+--- !u!1 &272110870
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 272110872}
+  - component: {fileID: 272110871}
+  m_Layer: 0
+  m_Name: 3 (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &272110871
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 272110870}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d243ed37456befd4792606e332d5490e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_AudioSource: {fileID: 519420034}
+  goalClip: {fileID: 8300000, guid: 529a37f0650cde34ba5bd7c9fc652cad, type: 3}
+  hasilGabungClip: {fileID: 0}
+  animasiGabung: {fileID: 1134584889}
+  objectiveGoal: gu
+  stepDone: 0
+  playFirst: 0
+  combineAbjad: 0
+  playAnimasi: 1
+--- !u!4 &272110872
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 272110870}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1134584890}
+  m_Father: {fileID: 1183845827}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &281110783
 GameObject:
   m_ObjectHideFlags: 0
@@ -1356,7 +2224,7 @@ MonoBehaviour:
   _isAlreadyHit: 0
   _hurufKonsonan: 1
   m_AudioSource: {fileID: 519420034}
-  hurufClip: {fileID: 8300000, guid: 3fc10471105a2a344869caf33ea1889e, type: 3}
+  hurufClip: {fileID: 8300000, guid: a591ff717105d5444a7c1caba056f3e4, type: 3}
 --- !u!50 &281110786
 Rigidbody2D:
   serializedVersion: 4
@@ -1481,6 +2349,85 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1001 &284382150
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1591810926}
+    m_Modifications:
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2024579193963601161, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_Name
+      value: Animasi gabung huruf
+      objectReference: {fileID: 0}
+    - target: {fileID: 5961814394731460142, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: hurufKiriDalamImage
+      value: 
+      objectReference: {fileID: 21300276, guid: ee1aa8dd1fc49614d89b7eb3f8af788b, type: 3}
+    - target: {fileID: 5961814394731460142, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: hurufKananDalamImage
+      value: 
+      objectReference: {fileID: 21300264, guid: ee1aa8dd1fc49614d89b7eb3f8af788b, type: 3}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+--- !u!1 &284382151 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2024579193963601161, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+  m_PrefabInstance: {fileID: 284382150}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &284382152 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+  m_PrefabInstance: {fileID: 284382150}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &285739278
 GameObject:
   m_ObjectHideFlags: 0
@@ -1659,7 +2606,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &303680144
 Transform:
   m_ObjectHideFlags: 0
@@ -56886,6 +57833,60 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!1 &310900981
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 310900983}
+  - component: {fileID: 310900982}
+  m_Layer: 0
+  m_Name: 1 (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &310900982
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 310900981}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d243ed37456befd4792606e332d5490e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_AudioSource: {fileID: 519420034}
+  goalClip: {fileID: 8300000, guid: 81c41071e497f324abb68e2e08905023, type: 3}
+  hasilGabungClip: {fileID: 0}
+  animasiGabung: {fileID: 161607119}
+  objectiveGoal: bi
+  stepDone: 0
+  playFirst: 0
+  combineAbjad: 0
+  playAnimasi: 1
+--- !u!4 &310900983
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 310900981}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 161607120}
+  m_Father: {fileID: 1183845827}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &326139649
 GameObject:
   m_ObjectHideFlags: 0
@@ -56921,9 +57922,9 @@ RectTransform:
   m_Father: {fileID: 1355586720}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 1}
-  m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 0, y: -150}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 223, y: -170}
   m_SizeDelta: {x: 200, y: 80}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &326139651
@@ -57246,6 +58247,89 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 355031678}
   m_CullTransparentMesh: 1
+--- !u!1001 &372904843
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1930170391}
+    m_Modifications:
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2024579193963601161, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_Name
+      value: Animasi gabung huruf
+      objectReference: {fileID: 0}
+    - target: {fileID: 2024579193963601161, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5961814394731460142, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: hurufKiriDalamImage
+      value: 
+      objectReference: {fileID: 21300270, guid: ee1aa8dd1fc49614d89b7eb3f8af788b, type: 3}
+    - target: {fileID: 5961814394731460142, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: hurufKananDalamImage
+      value: 
+      objectReference: {fileID: 21300264, guid: ee1aa8dd1fc49614d89b7eb3f8af788b, type: 3}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+--- !u!1 &372904844 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2024579193963601161, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+  m_PrefabInstance: {fileID: 372904843}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &372904845 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+  m_PrefabInstance: {fileID: 372904843}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &382532911
 GameObject:
   m_ObjectHideFlags: 0
@@ -57465,7 +58549,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &401838548
 GameObject:
@@ -57826,6 +58910,85 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1001 &441348762
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 536185453}
+    m_Modifications:
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_RootOrder
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2024579193963601161, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_Name
+      value: Animasi gabung huruf
+      objectReference: {fileID: 0}
+    - target: {fileID: 5961814394731460142, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: hurufKiriDalamImage
+      value: 
+      objectReference: {fileID: 21300316, guid: ee1aa8dd1fc49614d89b7eb3f8af788b, type: 3}
+    - target: {fileID: 5961814394731460142, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: hurufKananDalamImage
+      value: 
+      objectReference: {fileID: 21300360, guid: ee1aa8dd1fc49614d89b7eb3f8af788b, type: 3}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+--- !u!1 &441348763 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2024579193963601161, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+  m_PrefabInstance: {fileID: 441348762}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &441348764 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+  m_PrefabInstance: {fileID: 441348762}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &450121479
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -57844,7 +59007,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3051991703196073168, guid: 7bc4643af8e4a984384d800a0da6112b, type: 3}
       propertyPath: m_RootOrder
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 3051991703196073168, guid: 7bc4643af8e4a984384d800a0da6112b, type: 3}
       propertyPath: m_AnchorMax.x
@@ -57935,6 +59098,60 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7bc4643af8e4a984384d800a0da6112b, type: 3}
+--- !u!1 &451730419
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 451730421}
+  - component: {fileID: 451730420}
+  m_Layer: 0
+  m_Name: 2 (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &451730420
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 451730419}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d243ed37456befd4792606e332d5490e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_AudioSource: {fileID: 519420034}
+  goalClip: {fileID: 8300000, guid: 825d9319688455141919be4b2b25abf9, type: 3}
+  hasilGabungClip: {fileID: 0}
+  animasiGabung: {fileID: 111230133}
+  objectiveGoal: di
+  stepDone: 0
+  playFirst: 0
+  combineAbjad: 0
+  playAnimasi: 1
+--- !u!4 &451730421
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 451730419}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 111230134}
+  m_Father: {fileID: 1183845827}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &457673909
 GameObject:
   m_ObjectHideFlags: 0
@@ -58151,10 +59368,12 @@ MonoBehaviour:
   m_AudioSource: {fileID: 519420034}
   goalClip: {fileID: 8300000, guid: cc8ae407ef038fd47b198b8c34f1d12c, type: 3}
   hasilGabungClip: {fileID: 0}
+  animasiGabung: {fileID: 0}
   objectiveGoal: de
   stepDone: 0
   playFirst: 0
   combineAbjad: 0
+  playAnimasi: 0
 --- !u!1 &470769293
 GameObject:
   m_ObjectHideFlags: 0
@@ -58210,7 +59429,7 @@ MonoBehaviour:
   _isAlreadyHit: 0
   _hurufKonsonan: 1
   m_AudioSource: {fileID: 519420034}
-  hurufClip: {fileID: 8300000, guid: de24c645bef5ae0449dd6e8f7507d0b0, type: 3}
+  hurufClip: {fileID: 8300000, guid: d4fdaada4b2442d49bc3acf20bfb486a, type: 3}
 --- !u!50 &470769296
 Rigidbody2D:
   serializedVersion: 4
@@ -58386,7 +59605,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -58415,6 +59634,168 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 484651653}
   m_CullTransparentMesh: 1
+--- !u!1001 &495178826
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1405348280}
+    m_Modifications:
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2024579193963601161, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_Name
+      value: Animasi gabung huruf
+      objectReference: {fileID: 0}
+    - target: {fileID: 5961814394731460142, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: hurufKiriDalamImage
+      value: 
+      objectReference: {fileID: 21300266, guid: ee1aa8dd1fc49614d89b7eb3f8af788b, type: 3}
+    - target: {fileID: 5961814394731460142, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: hurufKananDalamImage
+      value: 
+      objectReference: {fileID: 21300272, guid: ee1aa8dd1fc49614d89b7eb3f8af788b, type: 3}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+--- !u!1 &495178827 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2024579193963601161, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+  m_PrefabInstance: {fileID: 495178826}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &495178828 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+  m_PrefabInstance: {fileID: 495178826}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &498279998
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 965123755}
+    m_Modifications:
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2024579193963601161, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_Name
+      value: Animasi gabung huruf
+      objectReference: {fileID: 0}
+    - target: {fileID: 2024579193963601161, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5961814394731460142, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: hurufKiriDalamImage
+      value: 
+      objectReference: {fileID: 21300266, guid: ee1aa8dd1fc49614d89b7eb3f8af788b, type: 3}
+    - target: {fileID: 5961814394731460142, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: hurufKananDalamImage
+      value: 
+      objectReference: {fileID: 21300264, guid: ee1aa8dd1fc49614d89b7eb3f8af788b, type: 3}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+--- !u!1 &498279999 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2024579193963601161, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+  m_PrefabInstance: {fileID: 498279998}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &498280000 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+  m_PrefabInstance: {fileID: 498279998}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &510936160
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -64053,7 +65434,8 @@ Transform:
   m_LocalPosition: {x: 6.5, y: 3.5, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 1544490304}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -64278,10 +65660,12 @@ MonoBehaviour:
   m_AudioSource: {fileID: 519420034}
   goalClip: {fileID: 8300000, guid: 3fc10471105a2a344869caf33ea1889e, type: 3}
   hasilGabungClip: {fileID: 0}
+  animasiGabung: {fileID: 0}
   objectiveGoal: ma
   stepDone: 0
   playFirst: 0
   combineAbjad: 0
+  playAnimasi: 0
 --- !u!4 &531232984
 Transform:
   m_ObjectHideFlags: 0
@@ -64295,6 +65679,218 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1640940386}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &532191257
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 573468571}
+    m_Modifications:
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2024579193963601161, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_Name
+      value: Animasi gabung huruf
+      objectReference: {fileID: 0}
+    - target: {fileID: 5961814394731460142, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: hurufKiriDalamImage
+      value: 
+      objectReference: {fileID: 21300316, guid: ee1aa8dd1fc49614d89b7eb3f8af788b, type: 3}
+    - target: {fileID: 5961814394731460142, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: hurufKananDalamImage
+      value: 
+      objectReference: {fileID: 21300264, guid: ee1aa8dd1fc49614d89b7eb3f8af788b, type: 3}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+--- !u!1 &532191258 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2024579193963601161, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+  m_PrefabInstance: {fileID: 532191257}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &532191259 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+  m_PrefabInstance: {fileID: 532191257}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &535061566
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 236042820}
+    m_Modifications:
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2024579193963601161, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_Name
+      value: Animasi gabung huruf
+      objectReference: {fileID: 0}
+    - target: {fileID: 5961814394731460142, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: hurufKiriDalamImage
+      value: 
+      objectReference: {fileID: 21300276, guid: ee1aa8dd1fc49614d89b7eb3f8af788b, type: 3}
+    - target: {fileID: 5961814394731460142, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: hurufKananDalamImage
+      value: 
+      objectReference: {fileID: 21300320, guid: ee1aa8dd1fc49614d89b7eb3f8af788b, type: 3}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+--- !u!1 &535061567 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2024579193963601161, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+  m_PrefabInstance: {fileID: 535061566}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &535061568 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+  m_PrefabInstance: {fileID: 535061566}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &536185451
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 536185453}
+  - component: {fileID: 536185452}
+  m_Layer: 0
+  m_Name: 4 (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &536185452
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 536185451}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d243ed37456befd4792606e332d5490e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_AudioSource: {fileID: 519420034}
+  goalClip: {fileID: 8300000, guid: f402d2cd613b800489b15b99e578e226, type: 3}
+  hasilGabungClip: {fileID: 0}
+  animasiGabung: {fileID: 441348763}
+  objectiveGoal: mu
+  stepDone: 0
+  playFirst: 0
+  combineAbjad: 0
+  playAnimasi: 1
+--- !u!4 &536185453
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 536185451}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 441348764}
+  m_Father: {fileID: 1183845827}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &570911681
@@ -64476,6 +66072,60 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &573468569
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 573468571}
+  - component: {fileID: 573468570}
+  m_Layer: 0
+  m_Name: 4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &573468570
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 573468569}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d243ed37456befd4792606e332d5490e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_AudioSource: {fileID: 519420034}
+  goalClip: {fileID: 8300000, guid: 3fc10471105a2a344869caf33ea1889e, type: 3}
+  hasilGabungClip: {fileID: 0}
+  animasiGabung: {fileID: 532191258}
+  objectiveGoal: ma
+  stepDone: 0
+  playFirst: 0
+  combineAbjad: 0
+  playAnimasi: 1
+--- !u!4 &573468571
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 573468569}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 532191259}
+  m_Father: {fileID: 1183845827}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &583238786
 GameObject:
   m_ObjectHideFlags: 0
@@ -64703,10 +66353,12 @@ MonoBehaviour:
   m_AudioSource: {fileID: 519420034}
   goalClip: {fileID: 8300000, guid: 3a7ad5f4d2296a841a7798d74b88ae0f, type: 3}
   hasilGabungClip: {fileID: 0}
+  animasiGabung: {fileID: 0}
   objectiveGoal: ko
   stepDone: 0
   playFirst: 0
   combineAbjad: 0
+  playAnimasi: 0
 --- !u!1 &604474791
 GameObject:
   m_ObjectHideFlags: 0
@@ -65159,10 +66811,12 @@ MonoBehaviour:
   m_AudioSource: {fileID: 519420034}
   goalClip: {fileID: 8300000, guid: 6367f93b3d4d29a4ea64e135b77674a7, type: 3}
   hasilGabungClip: {fileID: 0}
+  animasiGabung: {fileID: 0}
   objectiveGoal: ga
   stepDone: 0
   playFirst: 0
   combineAbjad: 0
+  playAnimasi: 0
 --- !u!4 &652758891
 Transform:
   m_ObjectHideFlags: 0
@@ -65225,10 +66879,12 @@ MonoBehaviour:
   m_AudioSource: {fileID: 519420034}
   goalClip: {fileID: 8300000, guid: f402d2cd613b800489b15b99e578e226, type: 3}
   hasilGabungClip: {fileID: 0}
+  animasiGabung: {fileID: 0}
   objectiveGoal: mu
   stepDone: 0
   playFirst: 0
   combineAbjad: 0
+  playAnimasi: 0
 --- !u!1 &721012419
 GameObject:
   m_ObjectHideFlags: 0
@@ -65635,10 +67291,91 @@ MonoBehaviour:
   m_AudioSource: {fileID: 519420034}
   goalClip: {fileID: 8300000, guid: 6230be36f2adb7747808dc64becde99b, type: 3}
   hasilGabungClip: {fileID: 0}
+  animasiGabung: {fileID: 0}
   objectiveGoal: mi
   stepDone: 0
   playFirst: 0
   combineAbjad: 0
+  playAnimasi: 0
+--- !u!1001 &767387219
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 3882150}
+    m_Modifications:
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2024579193963601161, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_Name
+      value: Animasi gabung huruf
+      objectReference: {fileID: 0}
+    - target: {fileID: 5961814394731460142, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: hurufKiriDalamImage
+      value: 
+      objectReference: {fileID: 21300316, guid: ee1aa8dd1fc49614d89b7eb3f8af788b, type: 3}
+    - target: {fileID: 5961814394731460142, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: hurufKananDalamImage
+      value: 
+      objectReference: {fileID: 21300308, guid: ee1aa8dd1fc49614d89b7eb3f8af788b, type: 3}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+--- !u!1 &767387220 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2024579193963601161, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+  m_PrefabInstance: {fileID: 767387219}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &767387221 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+  m_PrefabInstance: {fileID: 767387219}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &807099916
 GameObject:
   m_ObjectHideFlags: 0
@@ -66406,10 +68143,12 @@ MonoBehaviour:
   m_AudioSource: {fileID: 519420034}
   goalClip: {fileID: 8300000, guid: 825d9319688455141919be4b2b25abf9, type: 3}
   hasilGabungClip: {fileID: 0}
+  animasiGabung: {fileID: 0}
   objectiveGoal: di
   stepDone: 0
   playFirst: 0
   combineAbjad: 0
+  playAnimasi: 0
 --- !u!1 &866998151
 GameObject:
   m_ObjectHideFlags: 0
@@ -67177,7 +68916,7 @@ MonoBehaviour:
   _isAlreadyHit: 0
   _hurufKonsonan: 1
   m_AudioSource: {fileID: 519420034}
-  hurufClip: {fileID: 8300000, guid: de24c645bef5ae0449dd6e8f7507d0b0, type: 3}
+  hurufClip: {fileID: 8300000, guid: d4fdaada4b2442d49bc3acf20bfb486a, type: 3}
 --- !u!50 &949611292
 Rigidbody2D:
   serializedVersion: 4
@@ -67302,6 +69041,139 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1001 &959700739
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1014450254}
+    m_Modifications:
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2024579193963601161, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_Name
+      value: Animasi gabung huruf
+      objectReference: {fileID: 0}
+    - target: {fileID: 5961814394731460142, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: hurufKiriDalamImage
+      value: 
+      objectReference: {fileID: 21300266, guid: ee1aa8dd1fc49614d89b7eb3f8af788b, type: 3}
+    - target: {fileID: 5961814394731460142, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: hurufKananDalamImage
+      value: 
+      objectReference: {fileID: 21300320, guid: ee1aa8dd1fc49614d89b7eb3f8af788b, type: 3}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+--- !u!1 &959700740 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2024579193963601161, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+  m_PrefabInstance: {fileID: 959700739}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &959700741 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+  m_PrefabInstance: {fileID: 959700739}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &965123753
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 965123755}
+  - component: {fileID: 965123754}
+  m_Layer: 0
+  m_Name: 1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &965123754
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 965123753}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d243ed37456befd4792606e332d5490e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_AudioSource: {fileID: 519420034}
+  goalClip: {fileID: 8300000, guid: 60eacfc72a9b71f418b7819f22e13e1d, type: 3}
+  hasilGabungClip: {fileID: 0}
+  animasiGabung: {fileID: 498279999}
+  objectiveGoal: ba
+  stepDone: 0
+  playFirst: 0
+  combineAbjad: 0
+  playAnimasi: 1
+--- !u!4 &965123755
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 965123753}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 498280000}
+  m_Father: {fileID: 1183845827}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &973081095
 GameObject:
   m_ObjectHideFlags: 0
@@ -67433,10 +69305,66 @@ MonoBehaviour:
   m_AudioSource: {fileID: 519420034}
   goalClip: {fileID: 8300000, guid: 986d7086327207943bec6b254ce92656, type: 3}
   hasilGabungClip: {fileID: 0}
+  animasiGabung: {fileID: 0}
   objectiveGoal: ge
   stepDone: 0
   playFirst: 0
   combineAbjad: 0
+  playAnimasi: 0
+--- !u!1 &1014450252
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1014450254}
+  - component: {fileID: 1014450253}
+  m_Layer: 0
+  m_Name: 1 (4)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1014450253
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1014450252}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d243ed37456befd4792606e332d5490e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_AudioSource: {fileID: 519420034}
+  goalClip: {fileID: 8300000, guid: 4a90199b4244b8e458dd15369802d18d, type: 3}
+  hasilGabungClip: {fileID: 0}
+  animasiGabung: {fileID: 959700740}
+  objectiveGoal: bo
+  stepDone: 0
+  playFirst: 0
+  combineAbjad: 0
+  playAnimasi: 1
+--- !u!4 &1014450254
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1014450252}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 959700741}
+  m_Father: {fileID: 1183845827}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1044966240
 GameObject:
   m_ObjectHideFlags: 0
@@ -67920,6 +69848,164 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1945740596737210218, guid: c251f38f84637aa4b8b91def672d3b39, type: 3}
   m_PrefabInstance: {fileID: 616360456}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1073928578
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1559941376}
+    m_Modifications:
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2024579193963601161, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_Name
+      value: Animasi gabung huruf
+      objectReference: {fileID: 0}
+    - target: {fileID: 5961814394731460142, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: hurufKiriDalamImage
+      value: 
+      objectReference: {fileID: 21300270, guid: ee1aa8dd1fc49614d89b7eb3f8af788b, type: 3}
+    - target: {fileID: 5961814394731460142, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: hurufKananDalamImage
+      value: 
+      objectReference: {fileID: 21300360, guid: ee1aa8dd1fc49614d89b7eb3f8af788b, type: 3}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+--- !u!1 &1073928579 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2024579193963601161, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+  m_PrefabInstance: {fileID: 1073928578}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1073928580 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+  m_PrefabInstance: {fileID: 1073928578}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1084150748
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1210667078}
+    m_Modifications:
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2024579193963601161, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_Name
+      value: Animasi gabung huruf
+      objectReference: {fileID: 0}
+    - target: {fileID: 5961814394731460142, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: hurufKiriDalamImage
+      value: 
+      objectReference: {fileID: 21300270, guid: ee1aa8dd1fc49614d89b7eb3f8af788b, type: 3}
+    - target: {fileID: 5961814394731460142, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: hurufKananDalamImage
+      value: 
+      objectReference: {fileID: 21300320, guid: ee1aa8dd1fc49614d89b7eb3f8af788b, type: 3}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+--- !u!1 &1084150749 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2024579193963601161, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+  m_PrefabInstance: {fileID: 1084150748}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1084150750 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+  m_PrefabInstance: {fileID: 1084150748}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1094991312
 GameObject:
   m_ObjectHideFlags: 0
@@ -67963,7 +70049,7 @@ MonoBehaviour:
   finalPanel: {fileID: 285739278}
   highlighter: {fileID: 0}
   finalFlag: {fileID: 164793137}
-  instructionManager: {fileID: 1640940385}
+  instructionManager: {fileID: 1183845826}
   bobotNilaiSoal: 0
   nextLevel: Level1 Latihan
   IsClear: 0
@@ -68117,10 +70203,91 @@ MonoBehaviour:
   m_AudioSource: {fileID: 519420034}
   goalClip: {fileID: 8300000, guid: 60eacfc72a9b71f418b7819f22e13e1d, type: 3}
   hasilGabungClip: {fileID: 0}
+  animasiGabung: {fileID: 0}
   objectiveGoal: ba
   stepDone: 0
   playFirst: 0
   combineAbjad: 0
+  playAnimasi: 0
+--- !u!1001 &1134584888
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 272110872}
+    m_Modifications:
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2024579193963601161, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_Name
+      value: Animasi gabung huruf
+      objectReference: {fileID: 0}
+    - target: {fileID: 5961814394731460142, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: hurufKiriDalamImage
+      value: 
+      objectReference: {fileID: 21300276, guid: ee1aa8dd1fc49614d89b7eb3f8af788b, type: 3}
+    - target: {fileID: 5961814394731460142, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: hurufKananDalamImage
+      value: 
+      objectReference: {fileID: 21300360, guid: ee1aa8dd1fc49614d89b7eb3f8af788b, type: 3}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+--- !u!1 &1134584889 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2024579193963601161, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+  m_PrefabInstance: {fileID: 1134584888}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1134584890 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+  m_PrefabInstance: {fileID: 1134584888}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1153703975
 GameObject:
   m_ObjectHideFlags: 0
@@ -68285,6 +70452,110 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1154669924}
   m_CullTransparentMesh: 1
+--- !u!1 &1183845825
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1183845827}
+  - component: {fileID: 1183845826}
+  m_Layer: 0
+  m_Name: _Instruction (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1183845826
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1183845825}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9a999bcea484684db1f255d680458e9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_AudioSource: {fileID: 519420034}
+  m_Clip: {fileID: 8300000, guid: 356a201d600825442bb4c412be14daea, type: 3}
+  instructionSteps:
+  - {fileID: 965123754}
+  - {fileID: 1930170390}
+  - {fileID: 1591810925}
+  - {fileID: 573468570}
+  - {fileID: 1258301470}
+  - {fileID: 310900982}
+  - {fileID: 451730420}
+  - {fileID: 172781950}
+  - {fileID: 3882149}
+  - {fileID: 1358631689}
+  - {fileID: 1676569549}
+  - {fileID: 1559941375}
+  - {fileID: 272110871}
+  - {fileID: 536185452}
+  - {fileID: 242629543}
+  - {fileID: 1405348279}
+  - {fileID: 250623582}
+  - {fileID: 147008034}
+  - {fileID: 174780505}
+  - {fileID: 162175110}
+  - {fileID: 1014450253}
+  - {fileID: 1210667077}
+  - {fileID: 236042819}
+  - {fileID: 169340905}
+  - {fileID: 1291258807}
+  instructionText: {fileID: 1378989566}
+  currentAbjadText: {fileID: 0}
+  currentLevel: 1
+  wordGoal: 0
+  stepIndex: 0
+  wordCount: 0
+  instructionCommand: 
+--- !u!4 &1183845827
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1183845825}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 965123755}
+  - {fileID: 1930170391}
+  - {fileID: 1591810926}
+  - {fileID: 573468571}
+  - {fileID: 1258301471}
+  - {fileID: 310900983}
+  - {fileID: 451730421}
+  - {fileID: 172781951}
+  - {fileID: 3882150}
+  - {fileID: 1358631690}
+  - {fileID: 1676569550}
+  - {fileID: 1559941376}
+  - {fileID: 272110872}
+  - {fileID: 536185453}
+  - {fileID: 242629544}
+  - {fileID: 1405348280}
+  - {fileID: 250623583}
+  - {fileID: 147008035}
+  - {fileID: 174780506}
+  - {fileID: 162175111}
+  - {fileID: 1014450254}
+  - {fileID: 1210667078}
+  - {fileID: 236042820}
+  - {fileID: 169340906}
+  - {fileID: 1291258808}
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1185705628
 GameObject:
   m_ObjectHideFlags: 0
@@ -68424,7 +70695,7 @@ MonoBehaviour:
   _isAlreadyHit: 0
   _hurufKonsonan: 1
   m_AudioSource: {fileID: 519420034}
-  hurufClip: {fileID: 8300000, guid: 3fc10471105a2a344869caf33ea1889e, type: 3}
+  hurufClip: {fileID: 8300000, guid: a591ff717105d5444a7c1caba056f3e4, type: 3}
 --- !u!50 &1194048524
 Rigidbody2D:
   serializedVersion: 4
@@ -68549,6 +70820,60 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1210667076
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1210667078}
+  - component: {fileID: 1210667077}
+  m_Layer: 0
+  m_Name: 2 (4)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1210667077
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1210667076}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d243ed37456befd4792606e332d5490e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_AudioSource: {fileID: 519420034}
+  goalClip: {fileID: 8300000, guid: 79a9740b8742c0c468acef0f25719e2d, type: 3}
+  hasilGabungClip: {fileID: 0}
+  animasiGabung: {fileID: 1084150749}
+  objectiveGoal: do
+  stepDone: 0
+  playFirst: 0
+  combineAbjad: 0
+  playAnimasi: 1
+--- !u!4 &1210667078
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1210667076}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1084150750}
+  m_Father: {fileID: 1183845827}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1240052934
 GameObject:
   m_ObjectHideFlags: 0
@@ -68706,6 +71031,193 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.5, y: 0.5}
   m_EdgeRadius: 0
+--- !u!1 &1258301469
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1258301471}
+  - component: {fileID: 1258301470}
+  m_Layer: 0
+  m_Name: 5
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1258301470
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1258301469}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d243ed37456befd4792606e332d5490e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_AudioSource: {fileID: 519420034}
+  goalClip: {fileID: 8300000, guid: de24c645bef5ae0449dd6e8f7507d0b0, type: 3}
+  hasilGabungClip: {fileID: 0}
+  animasiGabung: {fileID: 1340644696}
+  objectiveGoal: ka
+  stepDone: 0
+  playFirst: 0
+  combineAbjad: 0
+  playAnimasi: 1
+--- !u!4 &1258301471
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1258301469}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1340644697}
+  m_Father: {fileID: 1183845827}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1291258806
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1291258808}
+  - component: {fileID: 1291258807}
+  m_Layer: 0
+  m_Name: 5 (4)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1291258807
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1291258806}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d243ed37456befd4792606e332d5490e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_AudioSource: {fileID: 519420034}
+  goalClip: {fileID: 8300000, guid: 3a7ad5f4d2296a841a7798d74b88ae0f, type: 3}
+  hasilGabungClip: {fileID: 0}
+  animasiGabung: {fileID: 2094051485}
+  objectiveGoal: ko
+  stepDone: 0
+  playFirst: 0
+  combineAbjad: 0
+  playAnimasi: 1
+--- !u!4 &1291258808
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1291258806}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2094051486}
+  m_Father: {fileID: 1183845827}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1340644695
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1258301471}
+    m_Modifications:
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2024579193963601161, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_Name
+      value: Animasi gabung huruf
+      objectReference: {fileID: 0}
+    - target: {fileID: 5961814394731460142, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: hurufKiriDalamImage
+      value: 
+      objectReference: {fileID: 21300312, guid: ee1aa8dd1fc49614d89b7eb3f8af788b, type: 3}
+    - target: {fileID: 5961814394731460142, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: hurufKananDalamImage
+      value: 
+      objectReference: {fileID: 21300264, guid: ee1aa8dd1fc49614d89b7eb3f8af788b, type: 3}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+--- !u!1 &1340644696 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2024579193963601161, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+  m_PrefabInstance: {fileID: 1340644695}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1340644697 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+  m_PrefabInstance: {fileID: 1340644695}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1355586716
 GameObject:
   m_ObjectHideFlags: 0
@@ -68813,7 +71325,7 @@ RectTransform:
   - {fileID: 326139650}
   - {fileID: 285739279}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -68834,6 +71346,60 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scoreText: {fileID: 251473588}
   finalScorePanelText: {fileID: 1154669926}
+--- !u!1 &1358631688
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1358631690}
+  - component: {fileID: 1358631689}
+  m_Layer: 0
+  m_Name: 5 (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1358631689
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1358631688}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d243ed37456befd4792606e332d5490e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_AudioSource: {fileID: 519420034}
+  goalClip: {fileID: 8300000, guid: ac98dab554c984c4e8e855d39e09e6e6, type: 3}
+  hasilGabungClip: {fileID: 0}
+  animasiGabung: {fileID: 1845255793}
+  objectiveGoal: ki
+  stepDone: 0
+  playFirst: 0
+  combineAbjad: 0
+  playAnimasi: 1
+--- !u!4 &1358631690
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1358631688}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1845255794}
+  m_Father: {fileID: 1183845827}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1378989564
 GameObject:
   m_ObjectHideFlags: 0
@@ -68994,6 +71560,218 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1385788671}
   m_CullTransparentMesh: 1
+--- !u!1 &1405348278
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1405348280}
+  - component: {fileID: 1405348279}
+  m_Layer: 0
+  m_Name: 1 (3)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1405348279
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1405348278}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d243ed37456befd4792606e332d5490e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_AudioSource: {fileID: 519420034}
+  goalClip: {fileID: 8300000, guid: e27c2bde721e4ce418fe23040c9c72c3, type: 3}
+  hasilGabungClip: {fileID: 0}
+  animasiGabung: {fileID: 495178827}
+  objectiveGoal: be
+  stepDone: 0
+  playFirst: 0
+  combineAbjad: 0
+  playAnimasi: 1
+--- !u!4 &1405348280
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1405348278}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 495178828}
+  m_Father: {fileID: 1183845827}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1435073580
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 147008035}
+    m_Modifications:
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2024579193963601161, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_Name
+      value: Animasi gabung huruf
+      objectReference: {fileID: 0}
+    - target: {fileID: 5961814394731460142, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: hurufKiriDalamImage
+      value: 
+      objectReference: {fileID: 21300276, guid: ee1aa8dd1fc49614d89b7eb3f8af788b, type: 3}
+    - target: {fileID: 5961814394731460142, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: hurufKananDalamImage
+      value: 
+      objectReference: {fileID: 21300272, guid: ee1aa8dd1fc49614d89b7eb3f8af788b, type: 3}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+--- !u!1 &1435073581 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2024579193963601161, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+  m_PrefabInstance: {fileID: 1435073580}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1435073582 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+  m_PrefabInstance: {fileID: 1435073580}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1489488529
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 169340906}
+    m_Modifications:
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2024579193963601161, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_Name
+      value: Animasi gabung huruf
+      objectReference: {fileID: 0}
+    - target: {fileID: 5961814394731460142, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: hurufKiriDalamImage
+      value: 
+      objectReference: {fileID: 21300316, guid: ee1aa8dd1fc49614d89b7eb3f8af788b, type: 3}
+    - target: {fileID: 5961814394731460142, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: hurufKananDalamImage
+      value: 
+      objectReference: {fileID: 21300320, guid: ee1aa8dd1fc49614d89b7eb3f8af788b, type: 3}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+--- !u!1 &1489488530 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2024579193963601161, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+  m_PrefabInstance: {fileID: 1489488529}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1489488531 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+  m_PrefabInstance: {fileID: 1489488529}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1495487417
 GameObject:
   m_ObjectHideFlags: 0
@@ -69173,6 +71951,11 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!224 &1544490304 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 2151304406415654077, guid: e5e70418da5acdd4cbfb755890e853d7, type: 3}
+  m_PrefabInstance: {fileID: 2324719418323485684}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1547105604
 GameObject:
   m_ObjectHideFlags: 0
@@ -69257,6 +72040,60 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1559941374
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1559941376}
+  - component: {fileID: 1559941375}
+  m_Layer: 0
+  m_Name: 2 (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1559941375
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1559941374}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d243ed37456befd4792606e332d5490e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_AudioSource: {fileID: 519420034}
+  goalClip: {fileID: 8300000, guid: f52e855e230ae4e428f7e73f5cb94c34, type: 3}
+  hasilGabungClip: {fileID: 0}
+  animasiGabung: {fileID: 1073928579}
+  objectiveGoal: du
+  stepDone: 0
+  playFirst: 0
+  combineAbjad: 0
+  playAnimasi: 1
+--- !u!4 &1559941376
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1559941374}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1073928580}
+  m_Father: {fileID: 1183845827}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1560017031
 GameObject:
   m_ObjectHideFlags: 0
@@ -69473,6 +72310,139 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1591810924
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1591810926}
+  - component: {fileID: 1591810925}
+  m_Layer: 0
+  m_Name: 3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1591810925
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1591810924}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d243ed37456befd4792606e332d5490e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_AudioSource: {fileID: 519420034}
+  goalClip: {fileID: 8300000, guid: 6367f93b3d4d29a4ea64e135b77674a7, type: 3}
+  hasilGabungClip: {fileID: 0}
+  animasiGabung: {fileID: 284382151}
+  objectiveGoal: ga
+  stepDone: 0
+  playFirst: 0
+  combineAbjad: 0
+  playAnimasi: 1
+--- !u!4 &1591810926
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1591810924}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 284382152}
+  m_Father: {fileID: 1183845827}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1606818294
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 162175111}
+    m_Modifications:
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2024579193963601161, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_Name
+      value: Animasi gabung huruf
+      objectReference: {fileID: 0}
+    - target: {fileID: 5961814394731460142, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: hurufKiriDalamImage
+      value: 
+      objectReference: {fileID: 21300312, guid: ee1aa8dd1fc49614d89b7eb3f8af788b, type: 3}
+    - target: {fileID: 5961814394731460142, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: hurufKananDalamImage
+      value: 
+      objectReference: {fileID: 21300272, guid: ee1aa8dd1fc49614d89b7eb3f8af788b, type: 3}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+--- !u!1 &1606818295 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2024579193963601161, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+  m_PrefabInstance: {fileID: 1606818294}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1606818296 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+  m_PrefabInstance: {fileID: 1606818294}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1623237382
 GameObject:
   m_ObjectHideFlags: 0
@@ -69520,10 +72490,12 @@ MonoBehaviour:
   m_AudioSource: {fileID: 519420034}
   goalClip: {fileID: 8300000, guid: 2fdbb0ba05ae8e540bf4bf5d5ab88a44, type: 3}
   hasilGabungClip: {fileID: 0}
+  animasiGabung: {fileID: 0}
   objectiveGoal: gi
   stepDone: 0
   playFirst: 0
   combineAbjad: 0
+  playAnimasi: 0
 --- !u!1 &1627218681
 GameObject:
   m_ObjectHideFlags: 0
@@ -69614,7 +72586,7 @@ Transform:
   - {fileID: 1255510779}
   - {fileID: 95991667}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1627218684
 BoxCollider2D:
@@ -69705,6 +72677,8 @@ MonoBehaviour:
     m_Bits: 64
   moveSpeed: 7
   jumpForce: 16
+  audioSource: {fileID: 519420034}
+  clip: {fileID: 8300000, guid: 5e4f15fdaecbae14fa7442dd42eb5e4a, type: 3}
 --- !u!95 &1627218687
 Animator:
   serializedVersion: 5
@@ -69960,7 +72934,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1640940385
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -69973,6 +72947,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9a999bcea484684db1f255d680458e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_AudioSource: {fileID: 0}
+  m_Clip: {fileID: 0}
   instructionSteps:
   - {fileID: 1116018517}
   - {fileID: 173010630}
@@ -70225,6 +73201,85 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1001 &1665094564
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 174780506}
+    m_Modifications:
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2024579193963601161, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_Name
+      value: Animasi gabung huruf
+      objectReference: {fileID: 0}
+    - target: {fileID: 5961814394731460142, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: hurufKiriDalamImage
+      value: 
+      objectReference: {fileID: 21300316, guid: ee1aa8dd1fc49614d89b7eb3f8af788b, type: 3}
+    - target: {fileID: 5961814394731460142, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: hurufKananDalamImage
+      value: 
+      objectReference: {fileID: 21300272, guid: ee1aa8dd1fc49614d89b7eb3f8af788b, type: 3}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+--- !u!1 &1665094565 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2024579193963601161, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+  m_PrefabInstance: {fileID: 1665094564}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1665094566 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+  m_PrefabInstance: {fileID: 1665094564}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1668872734
 GameObject:
   m_ObjectHideFlags: 0
@@ -70316,7 +73371,7 @@ MonoBehaviour:
   _isAlreadyHit: 0
   _hurufKonsonan: 1
   m_AudioSource: {fileID: 519420034}
-  hurufClip: {fileID: 8300000, guid: de24c645bef5ae0449dd6e8f7507d0b0, type: 3}
+  hurufClip: {fileID: 8300000, guid: d4fdaada4b2442d49bc3acf20bfb486a, type: 3}
 --- !u!50 &1674230919
 Rigidbody2D:
   serializedVersion: 4
@@ -70441,6 +73496,60 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1676569548
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1676569550}
+  - component: {fileID: 1676569549}
+  m_Layer: 0
+  m_Name: 1 (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1676569549
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1676569548}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d243ed37456befd4792606e332d5490e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_AudioSource: {fileID: 519420034}
+  goalClip: {fileID: 8300000, guid: dfc64ec844ae1944582e7a551fa1aadb, type: 3}
+  hasilGabungClip: {fileID: 0}
+  animasiGabung: {fileID: 80684754}
+  objectiveGoal: bu
+  stepDone: 0
+  playFirst: 0
+  combineAbjad: 0
+  playAnimasi: 1
+--- !u!4 &1676569550
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1676569548}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 80684755}
+  m_Father: {fileID: 1183845827}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1696267715
 GameObject:
   m_ObjectHideFlags: 0
@@ -71224,10 +74333,12 @@ MonoBehaviour:
   m_AudioSource: {fileID: 519420034}
   goalClip: {fileID: 8300000, guid: 81c41071e497f324abb68e2e08905023, type: 3}
   hasilGabungClip: {fileID: 0}
+  animasiGabung: {fileID: 0}
   objectiveGoal: bi
   stepDone: 0
   playFirst: 0
   combineAbjad: 0
+  playAnimasi: 0
 --- !u!1 &1797858070
 GameObject:
   m_ObjectHideFlags: 0
@@ -71439,10 +74550,91 @@ MonoBehaviour:
   m_AudioSource: {fileID: 519420034}
   goalClip: {fileID: 8300000, guid: 529a37f0650cde34ba5bd7c9fc652cad, type: 3}
   hasilGabungClip: {fileID: 0}
+  animasiGabung: {fileID: 0}
   objectiveGoal: gu
   stepDone: 0
   playFirst: 0
   combineAbjad: 0
+  playAnimasi: 0
+--- !u!1001 &1845255792
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1358631690}
+    m_Modifications:
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2024579193963601161, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_Name
+      value: Animasi gabung huruf
+      objectReference: {fileID: 0}
+    - target: {fileID: 5961814394731460142, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: hurufKiriDalamImage
+      value: 
+      objectReference: {fileID: 21300312, guid: ee1aa8dd1fc49614d89b7eb3f8af788b, type: 3}
+    - target: {fileID: 5961814394731460142, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: hurufKananDalamImage
+      value: 
+      objectReference: {fileID: 21300308, guid: ee1aa8dd1fc49614d89b7eb3f8af788b, type: 3}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+--- !u!1 &1845255793 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2024579193963601161, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+  m_PrefabInstance: {fileID: 1845255792}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1845255794 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+  m_PrefabInstance: {fileID: 1845255792}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1850920006
 GameObject:
   m_ObjectHideFlags: 0
@@ -71608,10 +74800,12 @@ MonoBehaviour:
   m_AudioSource: {fileID: 519420034}
   goalClip: {fileID: 8300000, guid: 1fbceba2b9aacff4ca5cbcd49111e364, type: 3}
   hasilGabungClip: {fileID: 0}
+  animasiGabung: {fileID: 0}
   objectiveGoal: ku
   stepDone: 0
   playFirst: 0
   combineAbjad: 0
+  playAnimasi: 0
 --- !u!1001 &1881117931
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -71762,10 +74956,12 @@ MonoBehaviour:
   m_AudioSource: {fileID: 519420034}
   goalClip: {fileID: 8300000, guid: fac6ed8de65727c45ab6261c0c362ff1, type: 3}
   hasilGabungClip: {fileID: 0}
+  animasiGabung: {fileID: 0}
   objectiveGoal: me
   stepDone: 0
   playFirst: 0
   combineAbjad: 0
+  playAnimasi: 0
 --- !u!1 &1888092610
 GameObject:
   m_ObjectHideFlags: 0
@@ -71813,10 +75009,12 @@ MonoBehaviour:
   m_AudioSource: {fileID: 519420034}
   goalClip: {fileID: 8300000, guid: 4a90199b4244b8e458dd15369802d18d, type: 3}
   hasilGabungClip: {fileID: 0}
+  animasiGabung: {fileID: 0}
   objectiveGoal: bo
   stepDone: 0
   playFirst: 0
   combineAbjad: 0
+  playAnimasi: 0
 --- !u!1 &1910035416
 GameObject:
   m_ObjectHideFlags: 0
@@ -71945,8 +75143,87 @@ Transform:
   - {fileID: 516078873}
   - {fileID: 303680144}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1919253081
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 250623583}
+    m_Modifications:
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2024579193963601161, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_Name
+      value: Animasi gabung huruf
+      objectReference: {fileID: 0}
+    - target: {fileID: 5961814394731460142, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: hurufKiriDalamImage
+      value: 
+      objectReference: {fileID: 21300270, guid: ee1aa8dd1fc49614d89b7eb3f8af788b, type: 3}
+    - target: {fileID: 5961814394731460142, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: hurufKananDalamImage
+      value: 
+      objectReference: {fileID: 21300272, guid: ee1aa8dd1fc49614d89b7eb3f8af788b, type: 3}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+--- !u!1 &1919253082 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2024579193963601161, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+  m_PrefabInstance: {fileID: 1919253081}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1919253083 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+  m_PrefabInstance: {fileID: 1919253081}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1928581596
 GameObject:
   m_ObjectHideFlags: 0
@@ -71994,10 +75271,66 @@ MonoBehaviour:
   m_AudioSource: {fileID: 519420034}
   goalClip: {fileID: 8300000, guid: e27c2bde721e4ce418fe23040c9c72c3, type: 3}
   hasilGabungClip: {fileID: 0}
+  animasiGabung: {fileID: 0}
   objectiveGoal: be
   stepDone: 0
   playFirst: 0
   combineAbjad: 0
+  playAnimasi: 0
+--- !u!1 &1930170389
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1930170391}
+  - component: {fileID: 1930170390}
+  m_Layer: 0
+  m_Name: 2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1930170390
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1930170389}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d243ed37456befd4792606e332d5490e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_AudioSource: {fileID: 519420034}
+  goalClip: {fileID: 8300000, guid: 9afe28432122cd84e9cdc0ee73d2a850, type: 3}
+  hasilGabungClip: {fileID: 0}
+  animasiGabung: {fileID: 372904844}
+  objectiveGoal: da
+  stepDone: 0
+  playFirst: 0
+  combineAbjad: 0
+  playAnimasi: 1
+--- !u!4 &1930170391
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1930170389}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 372904845}
+  m_Father: {fileID: 1183845827}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1953941648
 GameObject:
   m_ObjectHideFlags: 0
@@ -72561,7 +75894,7 @@ MonoBehaviour:
   _isAlreadyHit: 0
   _hurufKonsonan: 1
   m_AudioSource: {fileID: 519420034}
-  hurufClip: {fileID: 8300000, guid: 3fc10471105a2a344869caf33ea1889e, type: 3}
+  hurufClip: {fileID: 8300000, guid: a591ff717105d5444a7c1caba056f3e4, type: 3}
 --- !u!50 &2028112420
 Rigidbody2D:
   serializedVersion: 4
@@ -72733,10 +76066,91 @@ MonoBehaviour:
   m_AudioSource: {fileID: 519420034}
   goalClip: {fileID: 8300000, guid: 97bb33328ce2224478993beada2eeb97, type: 3}
   hasilGabungClip: {fileID: 0}
+  animasiGabung: {fileID: 0}
   objectiveGoal: mo
   stepDone: 0
   playFirst: 0
   combineAbjad: 0
+  playAnimasi: 0
+--- !u!1001 &2066048175
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 172781951}
+    m_Modifications:
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2024579193963601161, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_Name
+      value: Animasi gabung huruf
+      objectReference: {fileID: 0}
+    - target: {fileID: 5961814394731460142, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: hurufKiriDalamImage
+      value: 
+      objectReference: {fileID: 21300276, guid: ee1aa8dd1fc49614d89b7eb3f8af788b, type: 3}
+    - target: {fileID: 5961814394731460142, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: hurufKananDalamImage
+      value: 
+      objectReference: {fileID: 21300308, guid: ee1aa8dd1fc49614d89b7eb3f8af788b, type: 3}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+--- !u!1 &2066048176 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2024579193963601161, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+  m_PrefabInstance: {fileID: 2066048175}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &2066048177 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+  m_PrefabInstance: {fileID: 2066048175}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2066796439
 GameObject:
   m_ObjectHideFlags: 0
@@ -72784,10 +76198,12 @@ MonoBehaviour:
   m_AudioSource: {fileID: 519420034}
   goalClip: {fileID: 8300000, guid: e96edd6777ecc93409ee803bae3b3641, type: 3}
   hasilGabungClip: {fileID: 0}
+  animasiGabung: {fileID: 0}
   objectiveGoal: go
   stepDone: 0
   playFirst: 0
   combineAbjad: 0
+  playAnimasi: 0
 --- !u!1 &2082504832
 GameObject:
   m_ObjectHideFlags: 0
@@ -72864,6 +76280,85 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2082504832}
   m_CullTransparentMesh: 1
+--- !u!1001 &2094051484
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1291258808}
+    m_Modifications:
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2024579193963601161, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_Name
+      value: Animasi gabung huruf
+      objectReference: {fileID: 0}
+    - target: {fileID: 5961814394731460142, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: hurufKiriDalamImage
+      value: 
+      objectReference: {fileID: 21300312, guid: ee1aa8dd1fc49614d89b7eb3f8af788b, type: 3}
+    - target: {fileID: 5961814394731460142, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: hurufKananDalamImage
+      value: 
+      objectReference: {fileID: 21300320, guid: ee1aa8dd1fc49614d89b7eb3f8af788b, type: 3}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+--- !u!1 &2094051485 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2024579193963601161, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+  m_PrefabInstance: {fileID: 2094051484}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &2094051486 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1092846074822262502, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+  m_PrefabInstance: {fileID: 2094051484}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2103246032
 GameObject:
   m_ObjectHideFlags: 0
@@ -72896,10 +76391,12 @@ MonoBehaviour:
   m_AudioSource: {fileID: 519420034}
   goalClip: {fileID: 8300000, guid: de24c645bef5ae0449dd6e8f7507d0b0, type: 3}
   hasilGabungClip: {fileID: 0}
+  animasiGabung: {fileID: 0}
   objectiveGoal: ka
   stepDone: 0
   playFirst: 0
   combineAbjad: 0
+  playAnimasi: 0
 --- !u!4 &2103246034
 Transform:
   m_ObjectHideFlags: 0
@@ -73458,6 +76955,111 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!1001 &2324719418323485684
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 519420032}
+    m_Modifications:
+    - target: {fileID: 2151304406415654077, guid: e5e70418da5acdd4cbfb755890e853d7, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2151304406415654077, guid: e5e70418da5acdd4cbfb755890e853d7, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2151304406415654077, guid: e5e70418da5acdd4cbfb755890e853d7, type: 3}
+      propertyPath: m_RootOrder
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2151304406415654077, guid: e5e70418da5acdd4cbfb755890e853d7, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2151304406415654077, guid: e5e70418da5acdd4cbfb755890e853d7, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2151304406415654077, guid: e5e70418da5acdd4cbfb755890e853d7, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2151304406415654077, guid: e5e70418da5acdd4cbfb755890e853d7, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2151304406415654077, guid: e5e70418da5acdd4cbfb755890e853d7, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2151304406415654077, guid: e5e70418da5acdd4cbfb755890e853d7, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2151304406415654077, guid: e5e70418da5acdd4cbfb755890e853d7, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2151304406415654077, guid: e5e70418da5acdd4cbfb755890e853d7, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2151304406415654077, guid: e5e70418da5acdd4cbfb755890e853d7, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2151304406415654077, guid: e5e70418da5acdd4cbfb755890e853d7, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2151304406415654077, guid: e5e70418da5acdd4cbfb755890e853d7, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2151304406415654077, guid: e5e70418da5acdd4cbfb755890e853d7, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2151304406415654077, guid: e5e70418da5acdd4cbfb755890e853d7, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2151304406415654077, guid: e5e70418da5acdd4cbfb755890e853d7, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2151304406415654077, guid: e5e70418da5acdd4cbfb755890e853d7, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2151304406415654077, guid: e5e70418da5acdd4cbfb755890e853d7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2151304406415654077, guid: e5e70418da5acdd4cbfb755890e853d7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2151304406415654077, guid: e5e70418da5acdd4cbfb755890e853d7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2185129996144573011, guid: e5e70418da5acdd4cbfb755890e853d7, type: 3}
+      propertyPath: m_Name
+      value: BackgroundCanvas
+      objectReference: {fileID: 0}
+    - target: {fileID: 6650414884155728778, guid: e5e70418da5acdd4cbfb755890e853d7, type: 3}
+      propertyPath: m_Camera
+      value: 
+      objectReference: {fileID: 519420031}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e5e70418da5acdd4cbfb755890e853d7, type: 3}
 --- !u!4 &5383116310053891654
 Transform:
   m_ObjectHideFlags: 0

@@ -7,11 +7,13 @@ public class InstructionStep : MonoBehaviour
     [SerializeField] private AudioSource m_AudioSource;
     [SerializeField] private AudioClip goalClip;
     [SerializeField] private AudioClip hasilGabungClip;
+    [SerializeField] private GameObject animasiGabung;
 
     [SerializeField] private string objectiveGoal;
     [SerializeField] private bool stepDone = false;
     [SerializeField] private bool playFirst = true;
     [SerializeField] private bool combineAbjad = false;
+    [SerializeField] private bool playAnimasi = false;
 
     public string ObjectiveGoal => objectiveGoal;
     public bool StepDone => stepDone;
@@ -41,6 +43,11 @@ public class InstructionStep : MonoBehaviour
         if(combineAbjad)
         {
             StartCoroutine(PlayAudio(hasilGabungClip));
+        }
+
+        if (playAnimasi)
+        {
+            animasiGabung.SetActive(true);
         }
     }
 }
