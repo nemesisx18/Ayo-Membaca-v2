@@ -19,7 +19,7 @@ public class SpecialCondition : MonoBehaviour
         if(instruction.StepIndex == 10)
         {
             border.SetActive(false);
-            cm.ChangeMaxX(119);
+            cm.ChangeMaxX(124);
         }
     }
 }

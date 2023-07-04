@@ -162,22 +162,33 @@ public class InstructionManager : MonoBehaviour
 
         currentAlphabet = alphabet;
 
-        for (int i = 0; i < instructionSteps.Count; i++)
+        if (currentAlphabet == instructionSteps[stepIndex].ObjectiveGoal)
         {
-            if (currentAlphabet == instructionSteps[i].ObjectiveGoal && !instructionSteps[i].StepDone)
+            instructionSteps[stepIndex].SetBool();
+            if (currentLevel != Level.LevelDasar1)
             {
-                instructionSteps[i].SetBool();
-                stepIndex++;
-                if (stepIndex >= instructionSteps.Count)
-                {
-                    Debug.Log("Objective clear!");
-                    instructionText.text = "Objektif tercapai! SIlahkan menuju pintu keluar!!";
-                    gameState.SetInstructionStatus();
-                    break;
-                }
-                break;
+                StartCoroutine(WaitStep());
+                return;
             }
+            NextStep();
         }
+
+        //for (int i = 0; i < instructionSteps.Count; i++)
+        //{
+        //    if (currentAlphabet == instructionSteps[i].ObjectiveGoal && !instructionSteps[i].StepDone)
+        //    {
+        //        instructionSteps[i].SetBool();
+        //        stepIndex++;
+        //        if (stepIndex >= instructionSteps.Count)
+        //        {
+        //            Debug.Log("Objective clear!");
+        //            instructionText.text = "Objektif tercapai! SIlahkan menuju pintu keluar!!";
+        //            gameState.SetInstructionStatus();
+        //            break;
+        //        }
+        //        break;
+        //    }
+        //}
     }
 
     private void SetAlphabet3(string alphabet)
