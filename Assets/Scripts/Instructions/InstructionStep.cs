@@ -28,7 +28,7 @@ public class InstructionStep : MonoBehaviour
 
     private IEnumerator PlayAudio(AudioClip clip)
     {
-        yield return new WaitForSecondsRealtime(1);
+        yield return new WaitForSeconds(1);
         m_AudioSource.PlayOneShot(clip);
     }
 

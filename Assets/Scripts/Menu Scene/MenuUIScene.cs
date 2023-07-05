@@ -6,6 +6,7 @@ using UnityEngine.UI;
 
 public class MenuUIScene : MonoBehaviour
 {
+    [SerializeField] private Button exitButton;
     [SerializeField] private Button latihanButton;
     [SerializeField] private Button pertandinganButton;
 
@@ -14,6 +15,7 @@ public class MenuUIScene : MonoBehaviour
 
     private void Start()
     {
+        exitButton.onClick.AddListener(ExitGame);
         latihanButton.onClick.AddListener(LatihanSection);
         pertandinganButton.onClick.AddListener(PertandinganSection);
     }
@@ -28,5 +30,10 @@ public class MenuUIScene : MonoBehaviour
     {
         SaveData.SaveInstance.isLatihanMode = false;
         SceneManager.LoadScene(pertandinganSceneName);
+    }
+
+    private void ExitGame()
+    {
+        Application.Quit();
     }
 }
