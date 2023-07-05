@@ -74149,7 +74149,7 @@ MonoBehaviour:
   wordGoal: 0
   stepIndex: 0
   wordCount: 0
-  instructionCommand: Pilih kata
+  instructionCommand: 
 --- !u!4 &1640940386
 Transform:
   m_ObjectHideFlags: 0
@@ -77666,6 +77666,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Animasi gabung huruf
       objectReference: {fileID: 0}
+    - target: {fileID: 2024579193963601161, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5961814394731460142, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
       propertyPath: isDoubleWordKanan
       value: 1
@@ -77682,6 +77686,14 @@ PrefabInstance:
       propertyPath: hurufKananDalamImage
       value: 
       objectReference: {fileID: 21300316, guid: ee1aa8dd1fc49614d89b7eb3f8af788b, type: 3}
+    - target: {fileID: 7342754592661559538, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 268
+      objectReference: {fileID: 0}
+    - target: {fileID: 8012820716457922915, guid: d12f83ed37c00f348822b2e7cb663996, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300320, guid: ee1aa8dd1fc49614d89b7eb3f8af788b, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

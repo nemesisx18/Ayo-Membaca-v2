@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class FinalPanelUI : MonoBehaviour
@@ -23,5 +24,10 @@ public class FinalPanelUI : MonoBehaviour
         {
             scoreTexts[i].text = saveData.Scores[i].ToString();
         }
+    }
+
+    public void ReturnMenu()
+    {
+        SceneManager.LoadScene("MainMenu");
     }
 }

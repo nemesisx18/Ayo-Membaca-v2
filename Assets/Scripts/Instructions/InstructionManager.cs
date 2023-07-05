@@ -1,4 +1,3 @@
-using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -8,7 +7,7 @@ public class InstructionManager : MonoBehaviour
 {
     [SerializeField] private AudioSource m_AudioSource;
     [SerializeField] private AudioClip m_Clip;
-    
+
     [SerializeField] private List<InstructionStep> instructionSteps = new List<InstructionStep>();
     [SerializeField] private Text instructionText;
     [SerializeField] private Text currentAbjadText;
@@ -49,7 +48,7 @@ public class InstructionManager : MonoBehaviour
             case Level.LevelDasar1:
                 Debug.Log("Sekarang level dasar 1");
                 AlphabetItem.OnPlayerHit += SetAlphabet;
-                break; 
+                break;
             case Level.LevelDasar2:
                 Debug.Log("Sekarang level dasar 2");
                 AlphabetCollection.AlphabetCollectionChanged += SetAlphabet2;
@@ -124,11 +123,11 @@ public class InstructionManager : MonoBehaviour
 
     private void SetAlphabet(string alphabet)
     {
-        if(gameState.IsClear)
+        if (gameState.IsClear)
         {
             return;
         }
-        
+
         currentAlphabet = alphabet;
 
         if (currentAlphabet == instructionSteps[stepIndex].ObjectiveGoal)
@@ -233,14 +232,22 @@ public class InstructionManager : MonoBehaviour
 
     private void InitInstruction()
     {
-        instructionSteps[stepIndex].gameObject.SetActive(true);
-        instructionText.text = instructionCommand + " '' " + instructionSteps[stepIndex].ObjectiveGoal + " '' ";
+        if (gameState.LatihanMode)
+        {
+            instructionSteps[stepIndex].gameObject.SetActive(true);
+            instructionText.text = instructionCommand + "''" + instructionSteps[stepIndex].ObjectiveGoal + "''";
+        }
+        else
+        {
+            instructionSteps[stepIndex].gameObject.SetActive(true);
+            instructionText.text = "''" + instructionSteps[stepIndex].ObjectiveGoal + "''";
+        }
     }
 
     [ContextMenu("Next Step")]
     private void NextStep()
     {
-        if(stepIndex < instructionSteps.Count)
+        if (stepIndex < instructionSteps.Count)
         {
             instructionSteps[stepIndex].gameObject.SetActive(false);
             stepIndex++;
@@ -252,8 +259,16 @@ public class InstructionManager : MonoBehaviour
                 gameState.SetInstructionStatus();
                 return;
             }
-            instructionText.text = instructionCommand + "''" + instructionSteps[stepIndex].ObjectiveGoal + "''";
-            instructionSteps[stepIndex].gameObject.SetActive(true);
+            if (gameState.LatihanMode)
+            {
+                instructionText.text = instructionCommand + "''" + instructionSteps[stepIndex].ObjectiveGoal + "''";
+                instructionSteps[stepIndex].gameObject.SetActive(true);
+            }
+            else
+            {
+                instructionText.text = "''" + instructionSteps[stepIndex].ObjectiveGoal + "''";
+                instructionSteps[stepIndex].gameObject.SetActive(true);
+            }
         }
     }
 

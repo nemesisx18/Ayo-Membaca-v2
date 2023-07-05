@@ -20,7 +20,7 @@ public class InstructionStep : MonoBehaviour
 
     private void Start()
     {
-        if(playFirst)
+        if(playFirst && GameState.gameInstance.LatihanMode)
         {
             StartCoroutine(PlayAudio(goalClip));
         }
