@@ -7,6 +7,8 @@ public class InstructionManager : MonoBehaviour
 {
     [SerializeField] private AudioSource m_AudioSource;
     [SerializeField] private AudioClip m_Clip;
+    [SerializeField] private AudioClip correctClip;
+    [SerializeField] private AudioClip objectiveClearClip;
 
     [SerializeField] private List<InstructionStep> instructionSteps = new List<InstructionStep>();
     [SerializeField] private Text instructionText;
@@ -132,6 +134,7 @@ public class InstructionManager : MonoBehaviour
 
         if (currentAlphabet == instructionSteps[stepIndex].ObjectiveGoal)
         {
+            m_AudioSource.PlayOneShot(correctClip);
             OnCorrectSubmit?.Invoke();
             instructionSteps[stepIndex].SetBool();
             if (currentLevel != Level.LevelDasar1)
@@ -163,6 +166,7 @@ public class InstructionManager : MonoBehaviour
 
         if (currentAlphabet == instructionSteps[stepIndex].ObjectiveGoal)
         {
+            m_AudioSource.PlayOneShot(correctClip);
             instructionSteps[stepIndex].SetBool();
             if (currentLevel != Level.LevelDasar1)
             {
@@ -208,6 +212,7 @@ public class InstructionManager : MonoBehaviour
             if (currentAlphabet == instructionSteps[stepIndex].ObjectiveGoal)
             {
                 StartCoroutine(ResetWord());
+                m_AudioSource.PlayOneShot(correctClip);
                 OnCorrectSubmit?.Invoke();
                 instructionSteps[stepIndex].SetBool();
                 if (currentLevel != Level.LevelDasar1)
@@ -256,6 +261,7 @@ public class InstructionManager : MonoBehaviour
             {
                 Debug.Log("Objective clear!");
                 instructionText.text = "Objektif tercapai! SIlahkan menuju pintu keluar!!";
+                m_AudioSource.PlayOneShot(objectiveClearClip);
                 gameState.SetInstructionStatus();
                 return;
             }
@@ -284,5 +290,10 @@ public class InstructionManager : MonoBehaviour
         wordCount = 0;
         currentAlphabet = "";
         currentAbjadText.text = "";
+    }
+
+    public void ReplayInstruction()
+    {
+        instructionSteps[stepIndex].RepeatInstruction();
     }
 }

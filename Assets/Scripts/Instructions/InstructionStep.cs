@@ -20,7 +20,7 @@ public class InstructionStep : MonoBehaviour
 
     private void Start()
     {
-        if(playFirst && GameState.gameInstance.LatihanMode)
+        if(playFirst)
         {
             StartCoroutine(PlayAudio(goalClip));
         }
@@ -48,6 +48,14 @@ public class InstructionStep : MonoBehaviour
         if (playAnimasi)
         {
             animasiGabung.SetActive(true);
+        }
+    }
+
+    public void RepeatInstruction()
+    {
+        if(!m_AudioSource.isPlaying) 
+        {
+            m_AudioSource.PlayOneShot(goalClip);
         }
     }
 }
