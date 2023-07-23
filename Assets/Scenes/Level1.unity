@@ -846,13 +846,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_AudioSource: {fileID: 519420034}
-  goalClip: {fileID: 8300000, guid: a1ac586488118f54fbb658fcea7f77ee, type: 3}
-  hasilGabungClip: {fileID: 0}
+  goalClip: {fileID: 8300000, guid: 238f948da89872446a29ab42f60cbbf9, type: 3}
+  hasilGabungClip: {fileID: 8300000, guid: a1ac586488118f54fbb658fcea7f77ee, type: 3}
   animasiGabung: {fileID: 2065936106}
   objectiveGoal: oma
   stepDone: 0
-  playFirst: 0
-  combineAbjad: 0
+  playFirst: 1
+  combineAbjad: 1
   playAnimasi: 1
 --- !u!1 &125675439
 GameObject:
@@ -1222,13 +1222,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_AudioSource: {fileID: 519420034}
-  goalClip: {fileID: 8300000, guid: 4fd885e7f0d46e048b15cda1dcb7cb4e, type: 3}
-  hasilGabungClip: {fileID: 0}
+  goalClip: {fileID: 8300000, guid: a381a512df0b8e7478928909f5bf2ddc, type: 3}
+  hasilGabungClip: {fileID: 8300000, guid: 4fd885e7f0d46e048b15cda1dcb7cb4e, type: 3}
   animasiGabung: {fileID: 1724162798}
   objectiveGoal: aki
   stepDone: 0
-  playFirst: 0
-  combineAbjad: 0
+  playFirst: 1
+  combineAbjad: 1
   playAnimasi: 1
 --- !u!4 &173010631
 Transform:
@@ -64098,13 +64098,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_AudioSource: {fileID: 519420034}
-  goalClip: {fileID: 8300000, guid: 5b42ac3e732bb2948921def13ebf59c3, type: 3}
-  hasilGabungClip: {fileID: 0}
+  goalClip: {fileID: 8300000, guid: db509bd7119b6c8408dfc2faac9f3ea0, type: 3}
+  hasilGabungClip: {fileID: 8300000, guid: 5b42ac3e732bb2948921def13ebf59c3, type: 3}
   animasiGabung: {fileID: 1505302678}
   objectiveGoal: ide
   stepDone: 0
-  playFirst: 0
-  combineAbjad: 0
+  playFirst: 1
+  combineAbjad: 1
   playAnimasi: 1
 --- !u!4 &531232984
 Transform:
@@ -65460,13 +65460,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_AudioSource: {fileID: 519420034}
-  goalClip: {fileID: 8300000, guid: c78aa007ff8c31540b1ac90e755c7396, type: 3}
-  hasilGabungClip: {fileID: 0}
+  goalClip: {fileID: 8300000, guid: 4b878a99b4938614fac7dfb5a491f7f3, type: 3}
+  hasilGabungClip: {fileID: 8300000, guid: c78aa007ff8c31540b1ac90e755c7396, type: 3}
   animasiGabung: {fileID: 521381794}
   objectiveGoal: iba
   stepDone: 0
-  playFirst: 0
-  combineAbjad: 0
+  playFirst: 1
+  combineAbjad: 1
   playAnimasi: 1
 --- !u!4 &652758891
 Transform:
@@ -66308,13 +66308,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_AudioSource: {fileID: 519420034}
-  goalClip: {fileID: 8300000, guid: 7091b7b379651014fa423a8702526bdc, type: 3}
-  hasilGabungClip: {fileID: 0}
+  goalClip: {fileID: 8300000, guid: feeaa781799171c429d2147dd2314f19, type: 3}
+  hasilGabungClip: {fileID: 8300000, guid: 7091b7b379651014fa423a8702526bdc, type: 3}
   animasiGabung: {fileID: 367554893}
   objectiveGoal: ebi
   stepDone: 0
-  playFirst: 0
-  combineAbjad: 0
+  playFirst: 1
+  combineAbjad: 1
   playAnimasi: 1
 --- !u!1 &788788909
 GameObject:
@@ -67243,13 +67243,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_AudioSource: {fileID: 519420034}
-  goalClip: {fileID: 8300000, guid: 678b19bdb7b59d341a2e0569bbf30ce5, type: 3}
-  hasilGabungClip: {fileID: 0}
+  goalClip: {fileID: 8300000, guid: 2f28bf4fee3c40f4a9ed7482149adc91, type: 3}
+  hasilGabungClip: {fileID: 8300000, guid: 678b19bdb7b59d341a2e0569bbf30ce5, type: 3}
   animasiGabung: {fileID: 317362381}
   objectiveGoal: ubi
   stepDone: 0
-  playFirst: 0
-  combineAbjad: 0
+  playFirst: 1
+  combineAbjad: 1
   playAnimasi: 1
 --- !u!1 &861889421
 GameObject:
@@ -69729,13 +69729,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_AudioSource: {fileID: 519420034}
-  goalClip: {fileID: 8300000, guid: 7129d326fc248934fbf87c238561bfb0, type: 3}
-  hasilGabungClip: {fileID: 0}
+  goalClip: {fileID: 8300000, guid: caf59bc2ec924eb4383310dce52d70fc, type: 3}
+  hasilGabungClip: {fileID: 8300000, guid: 7129d326fc248934fbf87c238561bfb0, type: 3}
   animasiGabung: {fileID: 675078899}
   objectiveGoal: aba
   stepDone: 0
-  playFirst: 0
-  combineAbjad: 0
+  playFirst: 1
+  combineAbjad: 1
   playAnimasi: 1
 --- !u!1001 &1139678558
 PrefabInstance:
@@ -73855,13 +73855,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_AudioSource: {fileID: 519420034}
-  goalClip: {fileID: 8300000, guid: 5a4e48839aced804abb4834b88213e43, type: 3}
-  hasilGabungClip: {fileID: 0}
+  goalClip: {fileID: 8300000, guid: 5fb334e289510bf4d9850485f2226735, type: 3}
+  hasilGabungClip: {fileID: 8300000, guid: 5a4e48839aced804abb4834b88213e43, type: 3}
   animasiGabung: {fileID: 1880364498}
   objectiveGoal: umi
   stepDone: 0
-  playFirst: 0
-  combineAbjad: 0
+  playFirst: 1
+  combineAbjad: 1
   playAnimasi: 1
 --- !u!1 &1627218681
 GameObject:
@@ -75589,13 +75589,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_AudioSource: {fileID: 519420034}
-  goalClip: {fileID: 8300000, guid: 15d36a7ebf242144b955731864de8bbe, type: 3}
-  hasilGabungClip: {fileID: 0}
+  goalClip: {fileID: 8300000, guid: d035623d62b65294babc3729e2c7a096, type: 3}
+  hasilGabungClip: {fileID: 8300000, guid: 15d36a7ebf242144b955731864de8bbe, type: 3}
   animasiGabung: {fileID: 1600616055}
   objectiveGoal: iga
   stepDone: 0
-  playFirst: 0
-  combineAbjad: 0
+  playFirst: 1
+  combineAbjad: 1
   playAnimasi: 1
 --- !u!1 &1797858070
 GameObject:
@@ -78305,13 +78305,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_AudioSource: {fileID: 519420034}
-  goalClip: {fileID: 8300000, guid: 6b59144b5d54e24419bf94a524b2defb, type: 3}
-  hasilGabungClip: {fileID: 0}
+  goalClip: {fileID: 8300000, guid: 3121f99583079944bb2ed20b6dd19ec9, type: 3}
+  hasilGabungClip: {fileID: 8300000, guid: 6b59144b5d54e24419bf94a524b2defb, type: 3}
   animasiGabung: {fileID: 156444413}
   objectiveGoal: ibu
   stepDone: 0
-  playFirst: 0
-  combineAbjad: 0
+  playFirst: 1
+  combineAbjad: 1
   playAnimasi: 1
 --- !u!4 &2103246034
 Transform:
